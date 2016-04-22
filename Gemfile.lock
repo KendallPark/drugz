@@ -38,10 +38,21 @@ GEM
       tzinfo (~> 1.1)
     arel (6.0.3)
     builder (3.2.2)
+    climate_control (0.0.3)
+      activesupport (>= 3.0)
+    cocaine (0.5.8)
+      climate_control (>= 0.0.3, < 1.0)
     concurrent-ruby (1.0.1)
+    ember-cli-rails (0.7.3)
+      cocaine (~> 0.5.8)
+      ember-cli-rails-assets (~> 0.6.2)
+      html_page (~> 0.1.0)
+      railties (>= 3.2, < 5)
+    ember-cli-rails-assets (0.6.2)
     erubis (2.7.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
+    html_page (0.1.0)
     i18n (0.7.0)
     json (1.8.3)
     loofah (2.0.3)
@@ -104,6 +115,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ember-cli-rails
   pg
   rails (= 4.2.6)
   rails-api
