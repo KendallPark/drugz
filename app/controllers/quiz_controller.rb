@@ -1,3 +1,0 @@
-class QuizController < ApiController
-  
-end

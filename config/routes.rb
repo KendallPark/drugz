@@ -54,5 +54,9 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
+  namespace :api do
+    resources :quiz
+  end
+
   mount_ember_app :frontend, to: "/"
 end
