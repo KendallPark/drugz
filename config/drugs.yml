@@ -1,0 +1,3839 @@
+---
+Block 1:
+  key:
+  - Case
+  - Drug
+  - Class
+  - Type
+  - Mechanism
+  - Therapeutic Use
+  - Adverse Effects
+  - Pregnancy Category
+  - Misc.
+  drugs:
+    ? "D50W \n 50% dextrose in water"
+    : Block:
+      - '1'
+      Case:
+      - C0
+      Drug: "D50W \n 50% dextrose in water"
+      Class: Glucose Elevating Agent
+      Type: D-Glucose
+      Mechanism: Parenteral dextrose is oxidized to carbon dioxide and water, and
+        provides 3.4 cal/g of d-glucose
+      Therapeutic Use: Hypoglycemia
+      Adverse Effects: "hyponatermia, \n hypokalemia"
+      Pregnancy Category: C/A
+    Ceftriaxone:
+      Block:
+      - '1'
+      Case:
+      - C0
+      - C7
+      Drug: Ceftriaxone
+      Class: "Cephalosporin, \n 3rd generation \n(β-lactam antibiotic)"
+      Type: |-
+        Antibiotic
+         Mostly gram-, &  gram+ (works well for strep/staph (not MRSA)
+      Mechanism: "Inhibition of cell-wall synthesis by binding to 1 or more penicillin-binding
+        proteins. Antimicrobial effect by interfering \nwith synthesis of peptidoglycan
+        (major structural component of bacterial cell wall); bacteria eventually lyse
+        because activity \nof cell-wall autolytic enzymes continues while cell-wall
+        assembly is arrested"
+      Therapeutic Use: Infections with broad spectrum gram - bacteria, narrow effect
+        on gram +(severe infections including life threatning, i.e. meningitis) Can
+        pass the blood brain barrier
+      Adverse Effects: Induration after IM injection, Biliary sludge (noted with ceftriaxone
+        in particular). Also nephrotoxicity at high doses; Rash or hypersensitivity
+      Pregnancy Category: B
+    Ortho-novum:
+      Block:
+      - '1'
+      Case:
+      - C1
+      Drug: Ortho-novum
+      Class: Estrogens/Progestins
+      Type: "Combination \n oral contraceptive"
+      Mechanism: Prevents ovulation (the realease of egg) Estradiol mimics estragon
+        and inhibits FSH, norethindrone mimics progesterone inhibiting LH
+      Therapeutic Use: |-
+        Birth control, Acne
+         Premenstrual dysphornic disorder
+         Descrease risk for ovarian cyst
+      Adverse Effects: |-
+        Cardiovascular,
+         carcinoma of breast/ reproductive organs, Benign hepatic adenoma. some common side effects for estrogen: weight gain, headaches, breast tenderness, increased breast size, nausea and bloating. serious side effects: DVT risk high (want to avoid in older women who smoke)
+      Pregnancy Category: X
+    Ibuprofen:
+      Block:
+      - '1'
+      Case:
+      - C1
+      - C4
+      - C7
+      Drug: Ibuprofen
+      Class: NSAID
+      Type: "Anti-inflammatory, \n analgesic, antipyretic"
+      Mechanism: REVERSIBLY inhibits Cox1 and 2 (Cox 1 inhibitied more than Cox 2);
+        so platelets can regenerate thromboxane A 2 levels (does not inhibit platelet
+        aggregation). Aspirin hits the enzymes irreversibly so platelets cant regenerate
+        thromboxane till new platelets are made (8-10 days)
+      Therapeutic Use: |-
+        Pain reliever
+         Fever reducer
+      Adverse Effects: Nephrotoxicity, GI bleeding, tinnitus
+      Pregnancy Category: C, but D at >30 wks gestation could cause premature closure
+        of ductus arteriousus
+    1% lidocaine:
+      Block:
+      - '1'
+      Case:
+      - C1
+      Drug: 1% lidocaine
+      Class: Local anasthetic
+      Type: Anesthetic
+      Mechanism: Prevents generation/conduction of nerve impulses by reducing sodium
+        permeability and increasing action potential threshold; inhibits depolarization,
+        which results in blockade of conduction
+      Therapeutic Use: |-
+        Local anasthesia during a pocedure
+         Sometimes used to treat irregular heart rhythms, also given in an epidural
+      Adverse Effects: |-
+        Arythmia, bradycardia,
+         hypotension
+      Pregnancy Category: B
+    IV propofol:
+      Block:
+      - '1'
+      Case:
+      - C1
+      Drug: IV propofol
+      Class: "General anasthetic, \nsystemic"
+      Type: "Short acting anethetic\nlipophilic sedative \nhyponotic"
+      Mechanism: Overall CNS depression; acts as an agonist on GABA-A receptors; Propofol
+        decreases the rate of dissociation of the GABA from the receptor, increasing
+        the duration of the GABA-activated opening of the Cl channel resulting in
+        hyperpolarization of cell membranes.
+      Therapeutic Use: Anesthesia, post-op nausea, sedation induction and maintenance
+      Adverse Effects: Hypotension, apnea, respiratory acidosis (when weaning) hypertriglycerdemia
+        (increased risk for pancreatitis), propofol related infusion syndrome (PRIS,
+        have metabolic acidosis, electrolyte imbalance, rhabodo like syndrome that
+        happens)
+      Pregnancy Category: B
+    RhoGAM:
+      Block:
+      - '1'
+      Case:
+      - C1
+      Drug: RhoGAM
+      Class: Immune Globulins
+      Type: Anti-Rho immunoglobin
+      Mechanism: The medicine is a solution of IgG anti-D (anti-RhD) antibodies  that
+        take out any fetal RhD-positive erythrocytes which have entered the maternal
+        blood stream from fetal circulation, before the maternal immune system can
+        react to them and create IgMs, thus preventing maternal sensitization
+      Therapeutic Use: Prevents Rh incompatibilty between the Rh- mom and a Rh+ child,
+        which could lead to miscarriage (hemolytic disease of newborn)
+      Adverse Effects: systemic reactions such as shock, myalgia, or lethargy
+      Pregnancy Category: C
+    Doxycycline:
+      Block:
+      - '1'
+      Case:
+      - C1
+      Drug: Doxycycline
+      Class: Tertracycline
+      Type: "Antibiotic \n Gram+ and garm- bacteria"
+      Mechanism: Inhibits bacteria's protein synthesis binding to 30S; may block dissociation
+        of peptidyl t-RNA from ribosomes, causing RNA-dependent protein synthesis
+        to arrest. Fecal excretion, allows this to be used in patients with renal
+        impairment.
+      Therapeutic Use: Infections with gram + or - bacteria (i.e. acne, UTI, intestinal
+        infections, eye infections, gonorrhea, chlamydia, gum disease and others)
+      Adverse Effects: |-
+        impaired bone growth
+         teeth discoloration, photosensitivity, GI side effects, binds to Ca2+, Fe2+ (stagger with dair products or multivitamins by atleast 2-4 hours!!!)
+      Pregnancy Category: D
+    Saline:
+      Block:
+      - '1'
+      Case:
+      - C2
+      Drug: Saline
+      Class: Sterile solution
+      Type: "NaCl in water \n placed parenterally"
+      Mechanism: Supplies the patient with an isotonic fluid that contains extra water
+        and salts needed to maintain the electrolyte balance. Hydrates the body, increases
+        intravascular volume (blood volume)
+      Therapeutic Use: 'Intravenous infusion for dehydration or hypovolemia; asceptic
+        use: flush wounds and skin abrasions; nasal irrigation'
+      Adverse Effects: |-
+        Rapid infusion of NS can cause
+         merabolic acidosis
+      Pregnancy Category: A
+    Amplicillin:
+      Block:
+      - '1'
+      Case:
+      - C2
+      Drug: Amplicillin
+      Class: |-
+        Penicillin
+        Aminopenicillin
+      Type: |-
+        Antibiotic
+         Beta-lactam ring
+         Gram+ and gram-
+      Mechanism: IRREVERSIBLY inhibits transpeptidase during 3rd and final stage of
+        cell wall synthesis in binary fission and leads to cell lysis. It acts as
+        a broad range penicillin
+      Therapeutic Use: Infections with gram + or - bacteria (i.e. pneumonia, UTI,
+        salmonella, endocarditic, meningitis and others) Ineffective against S. aureus
+      Adverse Effects: Allergic reaction-->anaphylaxis, induces positive Coombs-test,
+        hemolytic anemia
+      Pregnancy Category: B
+    Cefotaxime:
+      Block:
+      - '1'
+      Case:
+      - C2
+      Drug: Cefotaxime
+      Class: "Cephalosporin, \n 3rd generation \n(β-lactam antibiotic)"
+      Type: |-
+        Antibiotic
+         Mostly gram-, some gram +
+      Mechanism: "Binds to penicillin-binding proteins and inhibits final \ntranspeptidation
+        step of peptidoglycan synthesis, resulting \nin cell-wall death; resists degradation
+        by beta-lactamase"
+      Therapeutic Use: Infections with broad spectrum gram - bacteria, narrow effect
+        on gram +(severe infections including life threatning, i.e. meningitis)
+      Adverse Effects: "Elevated BUN, creatinine, \n hepatic transaminases; eosinophilia,
+        transient neutropenia"
+      Pregnancy Category: B
+    Fluconazole:
+      Block:
+      - '1'
+      Case:
+      - C2
+      Drug: Fluconazole
+      Class: Anti-fungal
+      Type: |-
+        Anti-fungal
+         Triazole ring
+      Mechanism: "Inhibits fungal cytochrome P450 dependent enzyme \n14-alpha-demethylas,
+        which converts lansterol to ergosterol, \nan essential component of fungal
+        cytoplastic membrane."
+      Therapeutic Use: 'Treat variety of fungal infections especially Candida infections:
+        vagina, mouth, throat, boodstream. Prevents infections in ppl w/ weak immmne
+        system, chemo and transplant patients, and premature babies'
+      Adverse Effects: "Hepatotoxicity, hypokalemia, \n thrombocytopenia, increased
+        ALT/AST"
+      Pregnancy Category: C and D
+    Vitamin K:
+      Block:
+      - '1'
+      Case:
+      - C2
+      Drug: Vitamin K
+      Class: Essential vitamin
+      Type: Lipid soluable
+      Mechanism: "Plays a vital role in the production of coagulation proteins and
+        \nblood clotting. Vitamin K acts as a co-factor to 7 vitamin K \ndependent
+        clotting factors. Prothrombin, thrombin, Cofactors 10, 9, 7, 2 (1972)"
+      Therapeutic Use: Prevent vitamin K deficiency, aid in clotting, reduce the risk
+        of bleeding
+      Adverse Effects: Formation of blood clots
+    Fresh frozen plasma:
+      Block:
+      - '1'
+      Case:
+      - C2
+      Drug: Fresh frozen plasma
+      Class: Blood component
+      Mechanism: Replaces/replenishes all plasma proteins and coagulation factors
+        to support adequate homeostasis
+      Therapeutic Use: Prevent bleeding prior to invasive procedure, for patients
+        with TTP
+      Adverse Effects: Hemolytic transfucion reacyions, Sepsis
+    Promethazine:
+      Block:
+      - '1'
+      Case:
+      - C3
+      Drug: Promethazine
+      Class: "Antihistamine  \nAntimetic"
+      Mechanism: 'Phenothiazine derivative with antidopaminergic effect: Blocker of
+        mesolimbic dopamine receptors and alpha-adrenergic receptors in brain. Antihistaminic
+        effect: H1-receptor blocker'
+      Therapeutic Use: "Allergic reaction, nausea, vomiting, \n motion sickness, pre-/
+        postoperative sedation"
+      Adverse Effects: "Tachycardia, Leukopenia,\n  hallucinations. Common side effects:
+        hypotension, sedation, dry mouth, "
+      Pregnancy Category: C
+    Lisinopril:
+      Block:
+      - '1'
+      Case:
+      - C3
+      Drug: Lisinopril
+      Class: ACE inhibitor
+      Type: Angiotensin converting enzyme inhibitor
+      Mechanism: Prevents the conversion of angiotensin I to angiotensin II (powerful
+        vasoconstrictor) through competitive inhibition of angiotensin-converting
+        enzyme resulting in decreased plasma angiotensin II concentrations; blood
+        pressure may be reduced in part through decreased vasoconstriction, increased
+        renin activity, and decreased aldosterone secretion
+      Therapeutic Use: Hypertension, acute MI, Heart failure
+      Adverse Effects: |-
+        Chest pain, hepatic failure,
+          /renal failure Very important side effects: hyperkalemia, cough, increase in serum creatinine/BUN (expected increase) & ANGIOEDEMA (rare)
+      Pregnancy Category: D
+    Meloxicam:
+      Block:
+      - '1'
+      Case:
+      - C3
+      Drug: Meloxicam
+      Class: NSAID
+      Mechanism: REVERSIBLY inhibits synthesis of prostaglandins in body tissues by
+        inhibiting at least 2 cyclo-oxygenase (COX) isoenzymes, COX-1 and COX-2
+      Therapeutic Use: Osteoarthtitis, rhematoid arthritis, tendonitis
+      Adverse Effects: "Gastric erosion and \n bleeding"
+      Pregnancy Category: C, D in 3rd trimester
+      Misc.: Meloxicam is easier on the stomach than Ibuprophen.
+    Acyclovir:
+      Block:
+      - '1'
+      Case:
+      - C3
+      Drug: Acyclovir
+      Class: Antiviral
+      Mechanism: Interferes with DNA polymerase to inhibit DNA replication via chain
+        termination
+      Therapeutic Use: Genital herpes, Herpes simplex virus, Mucocutaneous herpes
+        simplex virus, Shingles, Chickenpox
+      Adverse Effects: TPP, anemia, ataxia
+      Pregnancy Category: B
+    Vancomyocin:
+      Block:
+      - '1'
+      Case:
+      - C3
+      Drug: Vancomyocin
+      Class: Glycopeptide
+      Type: "Antibiotic \nGram + bacteria"
+      Mechanism: Inhibits cell-wall biosynthesis; blocks glycopeptide polymerization
+        by binding tightly to D-alanyl-D-alanine portion of cell wall precursor. Should
+        be used when other antobiotics failed
+      Therapeutic Use: C. difficile, Staph, Endocarditis, preoperative/ surgical antimicrobial
+        prophylaxis
+      Adverse Effects: Flushing of skin (red man syndrome), thrombophlebitis, ototoxicity,
+        nephrotoxicity can be prevented with antihistamine and slow infusion
+      Pregnancy Category: C (innjection), B (oral)
+    Meropenem:
+      Block:
+      - '1'
+      Case:
+      - C3
+      Drug: Meropenem
+      Class: |-
+        Carbapenems
+         β-lactam antibiotic
+      Type: "Antibiotics\nMany gram+ and gram- \nAnaeobic bacteria"
+      Mechanism: Inhibits cell-wall synthesis by binding to penicillin-binding proteins;
+        resistant to most beta-lactamases.
+      Therapeutic Use: "Febrile neutropenia, complicated skin \n infection, complicated
+        intra-abdominal infection, community aquired pnemonia"
+      Adverse Effects: |-
+        Cardiac arest, Leukopenia,            can be prevented with antihistamine and slow infusion
+         neutropenia, positive Coombs test
+      Pregnancy Category: B
+    Methylprednisolone:
+      Block:
+      - '1'
+      Case:
+      - C3
+      Drug: Methylprednisolone
+      Class: Corticosteroid
+      Type: Anti-inflammatory
+      Mechanism: Controls/ prevents inflammation by controlling rate of protein synthesis,
+        suppressing migration of polymorphonuclear leukocytes (PMNs) and fibroblasts,
+        reversing capillary permeability, and stabilizing lysosomes at cellular level.
+        It also modulates carbohydrate, protein, and lipid metabolism and maintenance
+        of fluid and electrolyte homeostasis.
+      Therapeutic Use: Inflamation and autoimmune disease, adrenocortical insufficiency,
+        arthritis, blood disorders
+      Adverse Effects: Diabetes Mellitus, Glucose intolerance (hyperglycemia), fat
+        deposition, muscle wasting
+      Pregnancy Category: C
+    Allopurinol:
+      Block:
+      - '1'
+      Case:
+      - C3
+      Drug: Allopurinol
+      Class: "Xanthine Oxidase \ninhibitor"
+      Type: Antigout agent
+      Mechanism: Xanthine oxidase inhibitor; inhibits conversion of  (purines) hypoxanthine
+        to xanthine to uric acid; decreases production of uric acid without disrupting
+        synthesis of vital purines
+      Therapeutic Use: Prevents tumor lysis syndrome (given prior to chemo), used
+        for GOUT, hyperuricemia
+      Adverse Effects: |-
+        Allergic skin reactions
+         ,kideny issues
+      Pregnancy Category: C
+    Insulin:
+      Block:
+      - '1'
+      Case:
+      - C3
+      Drug: Insulin
+      Class: Antidiabetic
+      Type: Hormone
+      Mechanism: Insulin and its analogues lower blood glucose by stimulating peripheral
+        glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic
+        glucose production; insulin inhibits lipolysis and proteolysis, and enhances
+        protein synthesis; targets include skeletal muscle, liver, and adipose tissue
+      Therapeutic Use: Hyperglucemia, Type 1DM/ Type 2 DM
+      Adverse Effects: "Hypoglycemia, lipodystrophy, \n hypokalemia"
+    Cyclophosphamide:
+      Block:
+      - '1'
+      Case:
+      - C3
+      - C6
+      Drug: Cyclophosphamide
+      Class: Antineoplastics
+      Type: "Alkylating agent, DMARD,\nImmunomodulator, \nHyper-CVAD"
+      Mechanism: Metabolites interfere with malignant cell growth by cross-linking
+        tumor cell DNA, drug does not have specificity for any phase of the cycle,
+        also has potent immunosuppressive activity. Alkylates the guanine base pair
+        at N-7, leading to cross linking. Requires P450 activation in the liver.
+      Therapeutic Use: "Chemotherapy drug that works by slowing down \n or stopping
+        cell growth. Part of chemotherapy regimen used to treat non-Hodgkin lymphoma
+        (high grade) and acute lymphoblastic lymphoma."
+      Adverse Effects: Hyponatremia (because cyclophosophamide induces excessive ADH
+        secression) Black/bloody stools, yellowing of eyes/skin. Dark urine, mental/mood
+        changes
+      Pregnancy Category: D
+    Vincristine:
+      Block:
+      - '1'
+      Case:
+      - C3
+      Drug: Vincristine
+      Class: Antineoplastics
+      Type: "Vinca alkaloid agent, \n Hyper-CVAD"
+      Mechanism: Acts in M & S phases of the cell cycle by inhibiting microtubule
+        formation, inhibits DNA/RNA synthesis. This drug is also a Vesicant and only
+        adminstered IV.
+      Therapeutic Use: "Chemotherapy drug that works by slowing down \n or stopping
+        cell growth. Part of chemotherapy regimen used to treat non-Hodgkin lymphoma
+        (high grade) and acute lymphoblastic lymphoma."
+      Adverse Effects: |-
+        Intrathecal administration will result
+         in death, seizures, signs of liver problems, parlytic ileus
+      Pregnancy Category: D
+    Doxorubicin (Adriamycin):
+      Block:
+      - '1'
+      Drug: Doxorubicin (Adriamycin)
+      Class: Antineoplastics
+      Type: |-
+        Anthracycline,
+         Hyper-CVAD
+      Mechanism: Intercalates between DNA base pairs, impairs topoisomerase II function
+        and inhibits replication & transcription
+      Therapeutic Use: Chemotherapy drug that works by slowing down or stopping cell
+        growth. Part of chemotherapy regimen used to treat non-Hodgkin lymphoma (high
+        grade) and acute lymphoblastic lymphoma.
+      Adverse Effects: Cardiotoxicity, potential lethal CHF post therapy, secodary
+        acute myelogenous lukemia and myelodysplastic syndrome
+      Pregnancy Category: D
+    Dexamethasone:
+      Block:
+      - '1'
+      Case:
+      - C3
+      Drug: Dexamethasone
+      Class: Corticosteroid
+      Type: "Anti-inflammatory, \nHyper-CVAD"
+      Mechanism: Decreases inflammation by suppressing migration of polymorphonuclear
+        leukocytes (PMNs) and reducing capillary permeability. Stabilizes cell and
+        lysosomal membranes, increases surfactant synthesis, increases serum vitamin
+        A concentration, and inhibits prostaglandin and proinflammatory cytokines.
+        Suppresses lymphocyte proliferation through direct cytolysis, inhibits mitosis,
+        breaks down granulocyte aggregates, and improves pulmonary microcirculation
+      Therapeutic Use: Inflamation . Parth of chemotherapy regimen used to treat non-Hodgkin
+        lymphoma (high grade) and acute lymphoblastic lymphoma.
+      Adverse Effects: "Cardiac arrest, glucose intolerance, \n glucosuria, diabetes
+        melitus"
+      Pregnancy Category: C
+    Methotrexate:
+      Block:
+      - '1'
+      Case:
+      - C3
+      Drug: Methotrexate
+      Class: Antineoplastics
+      Type: |-
+        Immunosupressant, Antimetabolite, DMARD, Immunomodulator,
+        Hyper-CVAD Optional
+      Mechanism: Inhibits dihydrofolic acid reductase. Inhibits purine and thymidylic
+        acid synthesis, which in turn interferes with DNA synthesis, repair, and cellular
+        replication; cell cycle specific for S phase. May inhibit rapid proliferation
+        of epithelial cells in skin. Cytarabine may also be given for this purpose
+        as part of CVAD.
+      Therapeutic Use: Rheumatoid arthritis, cancer, medical abortion
+      Adverse Effects: 'Myelosuppression with leucovorin rescue, macrocytic anemia,
+        hepatitis, teratogen, mucositis '
+      Pregnancy Category: X
+    DayQuil Cold & Flu:
+      Block:
+      - '1'
+      Case:
+      - C4
+      Drug: DayQuil Cold & Flu
+      Class: |-
+        Acetaminophen
+        Dextromethorphan
+        Phenylephrine
+      Type: Analgesic/ Decongestant combo
+      Mechanism: "Acetaminophen blocks pain impulse generation peripherally and may
+        inhibit the generation of prostaglandin in the CNS. Reduces fever by inhibiting
+        the hypothalamic heat-regulating center. \nDextromethorphan is a cough suppressant
+        that acts centrally on the cough center in the medulla (sigma opioid receptor)
+        \nPseudoephedrine stimulates the alpha-adrenergic receptors causing bronchodilation
+        and vasoconstriction."
+      Therapeutic Use: Relief of cold and congestion
+      Adverse Effects: "Hypertension, GI disturbances, \n birlirubin and alkaline
+        phosphatease can go up"
+      Pregnancy Category: Undefined
+    NyQuil:
+      Block:
+      - '1'
+      Case:
+      - C4
+      Drug: NyQuil
+      Class: |-
+        Acetaminophen
+        Doxylamine
+        Dextromethorphan
+        Phenylephrine
+      Type: Cough/cold
+      Mechanism: |-
+        See DayQuil
+        Doxylamine competitively blocks histamine from binding to H1 receptors; significant antimuscarinic activity and penetrates CNS, which causes pronounced tendency to induce sedation
+      Therapeutic Use: Nasal congestion, rhinorrhea, sore throat, cough, fever, headache
+      Adverse Effects: "Palpitations GI disturbances, \n birlirubin and alkaline phosphatease
+        can go up"
+      Pregnancy Category: Undefined
+    Acetaminophen:
+      Block:
+      - '1'
+      Case:
+      - C4
+      - C7
+      Drug: Acetaminophen
+      Class: Analgesics
+      Type: |-
+        Analgesic
+        Antipyresis
+        NOT ANTI-INFLAMMATORY
+      Mechanism: 'Reversibly inhibits COX. Acts on hypothalamus to produce antipyresis.
+        May work peripherally to block pain impulse generation; may also inhibit prostaglandin
+        synthesis in CNS. '
+      Therapeutic Use: Pain & fever
+      Adverse Effects: |-
+        LIVER TOXICITY (esp in overdose, avoid in anyone with hepatitis or liver issues) Angioedema, hyperammonemia,
+         toxic epidermal necrolysis, leuko/neutro/pancytopenia
+      Pregnancy Category: B
+      Misc.: Overdose à Acetylcysteine is used to treat it.
+    Oxycodone:
+      Block:
+      - '1'
+      Case:
+      - C4
+      Drug: Oxycodone
+      Class: Opiod analgesic
+      Mechanism: Narcotic agonist-analgesic of opiate, µ receptors; inhibits ascending
+        pain pathways, thus altering response to pain; produces analgesia, respiratory
+        depression, and sedation.
+      Therapeutic Use: Moderate to severe pain, chronic pain
+      Adverse Effects: Nausea, constipation (tolerance does not develop), Euphoria,
+        Bradycradia, coma, respiratory rate depression, cardiac arrest
+      Pregnancy Category: B, D (near term)
+    Carnitine:
+      Block:
+      - '1'
+      Case:
+      - C4
+      Drug: Carnitine
+      Class: Supplement
+      Type: Trimethylammonium derivative
+      Mechanism: L-isomer is a thyroid inhibitor found in muscle, liver, meat extract.
+        L-carnitine acts as an acyl carrier with respect to the mitochondrial membrane
+        and stimulates fatty acid oxidation
+      Therapeutic Use: Aid in beta oxidation
+    Phenobarbital:
+      Block:
+      - '1'
+      Case:
+      - C4
+      Drug: Phenobarbital
+      Class: barbiturate
+      Type: Anticonvulsant
+      Mechanism: Allosterically binds to GABA receptors, increasing there action.
+        Allow for increased Cl- channel opening, decreasing neuron firing.
+      Therapeutic Use: 'Seizures, anethestic '
+      Adverse Effects: CNS depression, sedation, P450 inducer
+    Pyridostigmine:
+      Block:
+      - '1'
+      Case:
+      - C5
+      Drug: Pyridostigmine
+      Class: |-
+        Acetcholinesterase inhibitor
+         Peripheral
+      Mechanism: Anticholinesterase agent which inhibits metabolism of acetylcholine
+        by acetylcholinesterase thereby enhancing its cholinergic effects fascilitating
+        impulses across myoneural junction
+      Therapeutic Use: Myasthenia Gravis, reversal for nondepolarizing muscle relaxants
+      Adverse Effects: ECG changes, cholinergic effects/ cholinergic crisis. DUMBBELSS
+        (Diarrhea, Urination, Miosis, Bronchospasm, Bradycardia, Excitation, Lacrimation,
+        Salivation, Sweating)
+      Pregnancy Category: B
+    Morphine:
+      Block:
+      - '1'
+      Case:
+      - C5
+      Drug: Morphine
+      Class: Opiod analgesic
+      Mechanism: Narcotic agonist-analgesic of opiate receptors; inhibits ascending
+        pain pathways, thus altering response to pain; produces analgesia, respiratory
+        depression, and sedation; suppresses cough by acting centrally in medulla.
+        Inhibit the release of PANGS (substance P, Acetylcholine, Norepinephrine,
+        Glutamate, and Serotonin)
+      Therapeutic Use: Acute pain
+      Adverse Effects: "Respiratory depression, \n circulatory depression, peripheral
+        edema"
+      Pregnancy Category: C, D if used near term
+    Ondansetron:
+      Block:
+      - '1'
+      Case:
+      - C5
+      - C8
+      Drug: Ondansetron
+      Class: Antiemetic
+      Type: Selective 5-HT3 Antagonist
+      Mechanism: Mechanism not fully characterized; selective 5-HT3 receptor antagonist;
+        binds to 5-HT3 receptors both in periphery and in CNS, with primary effects
+        in GI tract
+      Therapeutic Use: Nausea and vomiting
+      Adverse Effects: Cardiac complications, parethesia
+      Pregnancy Category: B
+    Enoxaparin:
+      Block:
+      - '1'
+      Case:
+      - C5
+      Drug: Enoxaparin
+      Class: Anticoagulants
+      Type: Hematologic
+      Mechanism: LMWH (low molecular weight heparins); antithrombotic that inhibits
+        factor Xa by increasing inhibition rate of clotting proteases that are activated
+        by antithrombin III, leading to less clotting
+      Therapeutic Use: Deep Vein Thrombosis
+      Adverse Effects: Bleeding, easy brusing, injection site reactions, heparin induced
+        thrombocytopenia ("HIT"), Since it works similar to heparin, if you suspect
+        patients platelets tank --> suspect HIT, will have to discontinue
+      Pregnancy Category: B
+      Misc.: Works similar to heparin
+    Insulin glargine:
+      Block:
+      - '1'
+      Case:
+      - C5
+      - C8
+      Drug: Insulin glargine
+      Class: "Antidiabetic, \n Long-Acting"
+      Type: Hormone
+      Mechanism: See insulin
+      Therapeutic Use: Type 1DM/ Type 2 DM
+      Adverse Effects: "Hypoglycemia, lipodystrophy, \n hypokalemia"
+      Pregnancy Category: C
+    Insulin aspart:
+      Block:
+      - '1'
+      Case:
+      - C5
+      Drug: Insulin aspart
+      Class: "Antidiabetic, \n Rapid-Acting"
+      Type: Hormone
+      Mechanism: See insulin
+      Therapeutic Use: Type 1 DM and type 2DM (if the diabetes is inadequatelly controlled
+        by diet and oral medication), Hyperglycemia
+      Adverse Effects: "Hypoglycemia, lipodystrophy, \n hypokalemia"
+      Pregnancy Category: B
+    ? |-
+      Potassium Chloride IV
+       KCl
+    : Block:
+      - '1'
+      Case:
+      - C5
+      Drug: |-
+        Potassium Chloride IV
+         KCl
+      Class: Electrolyte, miineral
+      Mechanism: Replenishes the deficit of the mineral in the blood, which then can
+        be taken up into the cells by diffucion or Na/K ATPase pump. In our case it
+        was administered due to the hypokalemic state induced by insulin.
+      Therapeutic Use: Hypokalemia, insulin resistance, can be administered with medication
+        for masthenia gravis
+      Adverse Effects: "Hyperkalemia can lead to paralysis, \n low blood pressure,
+        irregular heart rhythm, death"
+      Pregnancy Category: C
+    ? |-
+      Sodium Phosphates, IV
+       Na Phos
+    : Block:
+      - '1'
+      Case:
+      - C5
+      Drug: |-
+        Sodium Phosphates, IV
+         Na Phos
+      Class: Electrolyte, miineral
+      Mechanism: Phosphorus exerts a modifying influence on the steady state of calcium
+        levels, a buffering effect on acid-base equilibrium, and a primary role in
+        the renal excretion of hydrogen ion. Sodium is the principal cation of extracellular
+        fluid and comprises >90% of the total cations in the body; it is critical
+        to regulating extracellular and intravascular volume.
+      Therapeutic Use: Hypophosphatemia
+      Adverse Effects: |-
+        Na:Hyperreflexia, coma
+         Phos: Hypocalcemic tetany
+      Pregnancy Category: C
+    Levothyroxine:
+      Block:
+      - '1'
+      Case:
+      - C6
+      Drug: Levothyroxine
+      Class: Thyroid product
+      Type: Synthetic T4
+      Mechanism: Thyroid hormone increases basal metabolic rate, increases utilization
+        and mobilization of glycogen stores, promotes gluconeogenesis; involved in
+        growth development and stimulates protein synthesis
+      Therapeutic Use: Hypothyroidism
+      Adverse Effects: Congestive heart failure, palpitations, myasthenia, hyperthyroidism
+      Pregnancy Category: A
+    Digoxin:
+      Block:
+      - '1'
+      Case:
+      - C6
+      Drug: Digoxin
+      Class: Antidysrhythmic
+      Type: Ionotropic agent
+      Mechanism: 'Supraventricular arrhythmias: suppresses AV node conduction, which
+        increases refractory period and decreases conduction velocity, causing positive
+        inotropic effect, decreased ventricular rate, and enhanced vagal tone. In
+        heart failure, increases contractility by inhibiting sodium/potassium ATPase
+        pump in myocardial cells, which subsequently promotes calcium influx via sodium-calcium
+        exchange pump'
+      Therapeutic Use: Atrial fibrilation, heart failure
+      Adverse Effects: |-
+        Anorexia, cardiac dysrhythmias, chollinergic symptoms (nausea, vomiting), hyperkalemia
+         asystole
+      Pregnancy Category: C
+    ? |-
+      Asprin
+      Acetysalicylic acid
+    : Block:
+      - '1'
+      Case:
+      - C6
+      Drug: |-
+        Asprin
+        Acetysalicylic acid
+      Class: Analgesics
+      Type: Acetysalicylic acid
+      Mechanism: |-
+        Acts on hypothalamus to produce antipyresis; anti-inflammatory properties attributed to prostaglandin synthetase inhibition resulting in decreased formation of thromboxane A2. Actions are dose dependent
+        IRREVERSIBLY binds COX1 and COX2
+      Therapeutic Use: |-
+        Pain, fever, inflammation
+        Taken to prevent heart attacks, strokes and chest pain
+      Adverse Effects: "Tinnitus, dyspepsia, Reye's \n syndrome"
+      Pregnancy Category: D, in 3rd trimester can cause premature closure of ductus
+        arteriousus
+    Diltiazem:
+      Block:
+      - '1'
+      Case:
+      - C6
+      Drug: Diltiazem
+      Class: "Class IV Antidysrhythmic \nCalcium channel blocker"
+      Type: |
+        Nondihydropyridine
+      Mechanism: Inhibits extracellular calcium ion influx across membranes of myocardial
+        cells and smooth muscle, resulting in inhibition of cardiac and smooth muscle
+        contractions and thereby dilating main coronary and systemic arteries; no
+        effect on serum calcium concentrations; substantial inhibitory effects on
+        cardiac conduction system, acting principally at AV node, with some effects
+        at sinus node
+      Therapeutic Use: Angina, hypertension, atrial fibrilation, tachycardia
+      Adverse Effects: AV block, CHF, hemolytic anemia, thrombocytopenia, constipation
+        (verapamil), These are moderate -strong 3A4 inhibitors
+      Pregnancy Category: C
+    Amlodipine:
+      Block:
+      - '1'
+      Case:
+      - C6
+      Drug: Amlodipine
+      Class: Calcium channel blocker
+      Type: Antianginal agent
+      Mechanism: Inhibits transmembrane influx of extracellular calcium ions across
+        membranes of myocardial cells and vascular smooth muscle cells without changing
+        serum calcium concentrations; this inhibits cardiac and vascular smooth muscle
+        contraction, thereby dilating main coronary and systemic arteries. Increases
+        myocardial oxygen delivery in patients with vasospastic angina
+      Therapeutic Use: Hypertension, angina, coronary artery disease
+      Adverse Effects: "Pulmonary edema, lower \n extremity swelling"
+      Pregnancy Category: C
+    Mycophenolate mofetil:
+      Block:
+      - '1'
+      Case:
+      - C6
+      Drug: Mycophenolate mofetil
+      Type: Immunosupressant
+      Mechanism: Inhibits T- and B-cell proliferation, as well as antibody production.
+        Acts as noncompetitive, selective, and reversible inhibitor of inosine monophosphate
+        dehydrogenase, inhibits de novo synthesis of purines.
+      Therapeutic Use: Prevent the body from organ rejection, used alternatively to
+        cyclosporine in renal and liver transplants
+      Adverse Effects: GI bleeding, melanoma, nephrotoxocitiy, gingival overgrowth
+      Pregnancy Category: D
+    Bosentan:
+      Block:
+      - '1'
+      Case:
+      - C6
+      Drug: Bosentan
+      Class: PAH
+      Type: Endothelin antagonist
+      Mechanism: Competitive antagonist of endothelin-1 (both ETa and ETb receptor
+        ETa>ETb); blocks endothelin receptors on vascular endothelium and smooth muscle
+        resulting in inhibition of vasoconstriction
+      Therapeutic Use: Pulmonary Arterial Hypertension
+      Adverse Effects: Hepatic abnormalities, leukopenia, hyperbilirubinemia
+      Pregnancy Category: X
+    Sildenafil:
+      Block:
+      - '1'
+      Case:
+      - C6
+      Drug: Sildenafil
+      Class: |-
+        PAH
+        Viagra
+      Type: "Phosphodiesterase-5 enzyme \n inhibitor (PDE-5 inhibitor)"
+      Mechanism: 'Inhibits PDE-5, increasing cyclic guanosine monophosphate (cGMP)
+        --> stimulates protein kinases that lead to decreased Ca2+ in cell = reduced
+        contraction and increased dilation. Most PDE-5 receptors are located in corpora
+        cavernosa (some also in the eye, thats why people who take viagra see "blue"
+        - also why known as "blue pill". '
+      Therapeutic Use: "Pulmonary Arterial Hypertension, erectile \n dysfunction"
+      Adverse Effects: 'Edema, flushing, headache, tachycardia, priapism and vision
+        problems '
+      Pregnancy Category: B
+    Nifedipine:
+      Block:
+      - '1'
+      Case:
+      - C6
+      Drug: Nifedipine
+      Class: Calcium channel blocker
+      Type: Dihydropyridine
+      Mechanism: Inhibits transmembrane influx of extracellular calcium ions across
+        myocardial and vascular smooth muscle cell membranes without changing serum
+        calcium concentrations; this results in inhibition of cardiac and vascular
+        smooth muscle contraction, thereby dilating main coronary and systemic arteries.
+        Vasodilation with decreased peripheral resistance and increased heart rate
+      Therapeutic Use: Raynaud's phenomenon, angina, hypertension
+      Adverse Effects: "Lightheadedness, dyspnea, \n gingival hyperplasia"
+      Pregnancy Category: C
+    Esomeprazole:
+      Block:
+      - '1'
+      Case:
+      - C6
+      Drug: Esomeprazole
+      Class: Proton pump inhibitor (PPI)
+      Mechanism: S-isomer of omeprazole; irreversibly binds to H+/K+-exchanging ATPase
+        (proton pump) in gastric parietal cells, resulting in blockage of acid secretion
+      Therapeutic Use: GERD, GERD with erosive esophagitis, gastric ulcer
+      Adverse Effects: "GI disorders, Hepatobiliary \n disorder, diarrhea is common,
+        long term use osteoporosis (blocks absorption of Ca2+) some speculation it
+        may increase risk of C.diff infections. Also alter absorption of drugs that
+        depend on GI pH (iron, digoxin are examples)"
+      Pregnancy Category: C (oral), B(IV)
+    Nitroglycerin paste:
+      Block:
+      - '1'
+      Case:
+      - C6
+      Drug: Nitroglycerin paste
+      Class: Nitrate
+      Type: |-
+        Angina
+         Vasodilator
+      Mechanism: 'Nitrate enters vascular smooth muscle and is converted to nitric
+        oxide (NO) leading to activation of cGMP & vasodilation. Relaxes smooth muscle
+        via dose-dependent dilation of arterial and venous beds to reduce both preload
+        and afterload, and myocardial O2 demand. Also improves coronary collateral
+        circulation. '
+      Therapeutic Use: |-
+        Treat pain cause by chronic skin/anal fissures
+         Congestive heart failure, Raynaud's phenomenon
+      Adverse Effects: "Cardiovascular collapse, shock, \n contact dermatitis, Monday
+        disease, flushing. Should not be taken with Viagra"
+      Pregnancy Category: C
+    Losartan:
+      Block:
+      - '1'
+      Case:
+      - C6
+      Drug: Losartan
+      Class: "ARB (Angiotensin receptor \n blocker)"
+      Type: works almost like ACE, but do not interfere with bradykinin levels
+      Mechanism: Blocks binding of angiotensin II to type 1 angiotensin II receptors;  blocks
+        the vasoconstrictor and aldosterone-secreting effects of angiotensin II
+      Therapeutic Use: "Raynaud's phenomenon, hypertension, diabetic \n neuropathy"
+      Adverse Effects: 'Gastritis, edema, hyperkalemia will cause all the same side
+        effects as an ACE-I EXCEPT FOR COUGH (someone who develops cough on ACE-I
+        you give them ARB). If they develop Angioedema on ACE-I, never give them ACE-I
+        or ARB again. '
+      Pregnancy Category: D
+    Omeprazole:
+      Block:
+      - '1'
+      Case:
+      - C7
+      Drug: Omeprazole
+      Class: Proton pump inhibitor (PPI)
+      Mechanism: IRREVERSIBLE INHIBITION. Binds to H+/K+-exchanging ATPase (proton
+        pump) in gastric parietal cells, resulting in suppression of basal and stimulated
+        acid secretion
+      Therapeutic Use: GERD, erosive esophagitis, gastric ulcer, duodenal ulcer, helicobacter
+        pylori infection
+      Adverse Effects: |-
+        Bone fractures, hepatotoxicity, pneumonia (due do decreased acidity)
+         rhabdomyolysis, pancreatitis
+      Pregnancy Category: C
+    Lactulose:
+      Block:
+      - '1'
+      Case:
+      - C7
+      Drug: Lactulose
+      Class: |-
+        Ammonuim Detoxicants
+        Osmotic Laxative
+      Mechanism: 'Portal systemic encephalopathy: Breakdown of lactulose to organic
+        acids by colonic bacteria acidifies colonic contents, thereby inhibiting diffusion
+        of ammonia back to blood; agent also enhances diffusion of NH3 from blood
+        into gut, where it is converted to NH4+.Constipation: Hyperosmotic agent increases
+        stool water contents, softens stool, promotes peristalsis, and reduces blood
+        ammonia concentration'
+      Therapeutic Use: Portal systemic encephalopathy, constipation
+      Adverse Effects: Hypernatremia, hypokalemia
+      Pregnancy Category: B
+    FeSO4:
+      Block:
+      - '1'
+      Case:
+      - C7
+      Drug: FeSO4
+      Class: |-
+        Iron (II) Sulfate
+        iron salt
+      Type: Essential body mineral
+      Mechanism: |
+        Iron is an essential constituent of the body, being necessary for haemoglobin formation and for the oxidative processes of living tissue.
+      Therapeutic Use: Treat iron deficiency anemia
+      Adverse Effects: Constipation, black or dark stool, Nausea and cramps also common
+        (100% of patients who are compliant with iron will have side effects). Non-pharm
+        recommendation --> "steak and OJ diet). IRON IS BEST ABSORBED WITH VITAMIN
+        C OR ACIDIC ENVIRONMENT.
+    Marijuanna:
+      Block:
+      - '1'
+      Case:
+      - C8
+      Drug: Marijuanna
+      Class: Cannabinoid
+      Type: Schedule 1 Substance
+      Mechanism: 'CB1 receptors are located in brain, hypothalamus, adipose tissue,
+        skeletal muscle, and liver. CB2 receptors are loacted on lympoid tissues and
+        mediate cytokine release and migration of immune cells. Activation of CB1
+        receptors produce 4 psychological effects: affective (euphoria and easy laughter),
+        sensory (increased perception of external stimuli), somatic (feeling of the
+        body floating or sinking), and cognitive (distortion of time perception).
+        Other effects (analgesia, appetitie enhancement, muscle relaxation, hormonal
+        actions) are also mediated by CB1 receptor.'
+      Therapeutic Use: Multiple sclerosis, Parkinson's disease, glaucoma, food intake,
+        and rheumatoid arthritis
+      Adverse Effects: Big side effects that are extrapolated and used therapeutically
+        are anti nausea, appetite stimulation and analgesia. Marinol or Dronabinol
+        is derivative of Marijauna (control 3 medication) and is used in cancer and
+        AIDs patients for anti nausea and appetite stimulation. Use for pain not approved
+        yet
+    Loratadine:
+      Block:
+      - '1'
+      Case:
+      - C8
+      Drug: Loratadine
+      Class: Antihistamine
+      Type: Think Claritin
+      Mechanism: Long-acting tricyclic antihistamine with selective peripheral histamine
+        H1-receptor antagonistic activity
+      Therapeutic Use: Allergic Rhinitis
+      Adverse Effects: Hyperkinesis
+      Pregnancy Category: B
+    Topiramate:
+      Block:
+      - '1'
+      Case:
+      - C8
+      Drug: Topiramate
+      Class: Anticonvulsant
+      Type: Antimigraine agent & seizures
+      Mechanism: Increases GABA action and blocks voltage gated Na+ channels. Also
+        major effects on INHIBITING AMPA receptors (blocks glutamate activity) <--why
+        it works on seizures.
+      Therapeutic Use: Seizure treatment, migraine prevention
+      Adverse Effects: 'Kidney stones, weight loss, sedation (also has interactions
+        with birth control (most anti-convulsants do interact to some extent) '
+      Pregnancy Category: D
+    Fluoxetine:
+      Block:
+      - '1'
+      Case:
+      - C8
+      Drug: Fluoxetine
+      Class: Antidepressant
+      Type: SSRI
+      Mechanism: Selective serotonin reuptake inhibitor; little or no affinity for
+        alpha-adrenergic histamine or cholinergic receptor
+      Therapeutic Use: 'Antidepressant, Antianxiety, '
+      Adverse Effects: 'nausea and headaches (esp when first starting), sexual dysfunction
+        is very common in this class (KNOW THIS), sleep disturbances. Serious side
+        effect: Serotonin Syndrome'
+    Insulin Lispro:
+      Block:
+      - '1'
+      Case:
+      - C8
+      Drug: Insulin Lispro
+      Class: "Antidiabetic, \n Rapid-Acting"
+      Type: Hormone
+      Mechanism: See insulin
+      Therapeutic Use: Type 1 DM
+      Adverse Effects: Hypoglycemia, hypokalemia, also weight gain and lipodystrophy
+        (fat gets deposited in weird spots)
+      Pregnancy Category: B
+    Gabapentin:
+      Block:
+      - '1'
+      Case:
+      - C8
+      Drug: Gabapentin
+      Class: Anticonvulsant
+      Type: Gaba analog
+      Mechanism: 'Binds to alpha2y subunit of Ca2+ channels and Inhibits voltage gated
+        Ca2+ channels on presynaptic neuron, therefore, reventing the release of monoamine
+        neurotransmitters and decreases excitation on postsynaptic neuron. '
+      Therapeutic Use: Seizure treatment, migraine prevention, peripheral neuropathy,
+        bipolar disorder
+      Adverse Effects: Sedation and weight gain!
+Block 2:
+  key:
+  - Case
+  - Drug
+  - Class
+  - Mechanism
+  - Therapeutic Use
+  - Adverse Effects
+  - Misc.
+  drugs:
+    Saline:
+      Block:
+      - '2'
+      Case:
+      - C1
+      Drug: Saline
+      Class: Sterile solution
+      Mechanism: Supplies the patient with an isotonic fluid that contains extra water
+        and salts needed to maintain the electrolyte balance. Hydrates the body, increases
+        intravascular volume (blood volume)
+      Therapeutic Use: 'Intravenous infusion for dehydration or hypovolemia; asceptic
+        use: flush wounds and skin abrasions; nasal irrigation'
+      Adverse Effects: |-
+        Rapid infusion of NS can cause
+         merabolic acidosis
+    Amplicillin:
+      Block:
+      - '2'
+      Case:
+      - C1
+      Drug: Amplicillin
+      Class: |-
+        Penicillin
+        Aminopenicillin
+      Mechanism: IRREVERSIBLY inhibits transpeptidase during 3rd and final stage of
+        cell wall synthesis in binary fission and leads to cell lysis. It acts as
+        a broad range penicillin
+      Therapeutic Use: Infections with gram + or - bacteria (i.e. pneumonia, UTI,
+        salmonella, endocarditic, meningitis and others) Ineffective against S. aureus
+      Adverse Effects: Allergic reaction-->anaphylaxis, induces positive Coombs-test,
+        hemolytic anemia
+    Morphine:
+      Block:
+      - '2'
+      Case:
+      - C1
+      Drug: Morphine
+      Class: Opiod analgesic
+      Mechanism: Narcotic agonist-analgesic of opiate receptors; inhibits ascending
+        pain pathways, thus altering response to pain; produces analgesia, respiratory
+        depression, and sedation; suppresses cough by acting centrally in medulla.
+        Inhibit the release of PANGS (substance P, Acetylcholine, Norepinephrine,
+        Glutamate, and Serotonin)
+      Therapeutic Use: Acute pain
+      Adverse Effects: "Respiratory depression, \n circulatory depression, peripheral
+        edema"
+    Gentamicin:
+      Block:
+      - '2'
+      Case:
+      - C1
+      Drug: Gentamicin
+      Class: Aminoglycosides
+      Mechanism: Irreversibly bind to the 30S ribosomal subunit in bacteria to inhibit
+        formation of initation complex and interfere with the mRNA proofreading complex.
+        Also inhibit translocation of peptidyl tRNA and disrupt bacterial cell membranes.
+        Bactericidal. Requires O2 for uptake and are therefore ineffective against
+        anaerobes, which do not require oxygen.
+      Therapeutic Use: Used to treat aerobic gram positive rod infections including
+        Pseudomonas and Enterobacter. Septicemia, complicated intrabdominal infections,
+        UTIs, and nosocomial URIs. Not given orally, due to poor absorption from the
+        small intestine. Very heat stable and is used to coat surfical implants and
+        tools.
+      Adverse Effects: Nephrotoxicity when used with cephalosporins, Ototoxcitiy when
+        used with loop diuretics. Also a teratogen.
+      Misc.: 'Resistance via 3 types of transferase enzymes (found on plasmids and
+        transposons): 1. Acetylation, 2. Phosphorylation, 3. Adenylation                          Syncergistic
+        with B lactam antibiotics in streptococcal infections. Commonly used with
+        Ampicillin'
+    Surfactant:
+      Block:
+      - '2'
+      Case:
+      - C1
+      Drug: Surfactant
+    Hydrochlorothiazide:
+      Block:
+      - '2'
+      Case:
+      - C2
+      Drug: Hydrochlorothiazide
+      Class: Thiazide diuretic
+      Mechanism: Inhibits urine production by blocking the reabsorption of NaCl in
+        the early segment of the distal convoluted tubule.
+      Therapeutic Use: Hypertension, edema (can be used in moderate heart failure
+        patients to decrease excess fluid in the system)
+      Adverse Effects: Hypokalemia, hyponatremia, dehydration, hyperglycemia, and
+        gout. Also causes Hypercalcemia!
+      Misc.: Should be avoided in patients with renal failure, sulfa allergy, and
+        during pregnancy/breast feeding. HCTZ can cross placenta and enter breast
+        milks.
+    Amoxicillin:
+      Block:
+      - '2'
+      Case:
+      - C2
+      Drug: Amoxicillin
+      Class: Aminopenicillin
+      Mechanism: Penicillins inhibit bacterial cell wall synthesis. Disruption of
+        this process weakens the bacterial cell wall, allowing water to enter the
+        cell, eventually causing cell lysis or rupture.
+      Therapeutic Use: INEFFECTIVE AGAINST S. aureus, unless combined with beta lactamase
+        inhibitors
+      Adverse Effects: Rash, diarrhea, super infection, allergy
+    Heparin:
+      Block:
+      - '2'
+      Case:
+      - C2
+      Drug: Heparin
+      Class: Anticoagulant
+      Mechanism: antithrombotic that inhibits factor Xa by increasing inhibition rate
+        of clotting proteases that are activated by antithrombin III, leading to less
+        clotting. Reversed by giving protamine sulfate, which binds to negatively
+        charged heparin.
+      Therapeutic Use: Deep Vein Thrombosis, acute coronary syndrome (NSTMI), pulmonary
+        embolism, atrial fibrillation, and can be used during pregnancy because it
+        does not cross the placenta.
+      Adverse Effects: Bleeding, easy brusing, injection site reactions, heparin induced
+        thrombocytopenia ("HIT"), Since it works similar to heparin, if you suspect
+        patients platelets tank --> suspect HIT, will have to discontinue
+    Dobutamine:
+      Block:
+      - '2'
+      Case:
+      - C2
+      Drug: Dobutamine
+      Class: Beta 1 agonist
+      Mechanism: Beta 1 agonist. Stimulates beta 1 adrenoreceptors of the heart, leading
+        to increased contractility and cardiac output (positive inotropic drug)
+      Therapeutic Use: heart failure and cardiogenic shock. Not typically used for
+        ischemic heart disease because it increases myocardial oxygen demand.
+      Adverse Effects: Tachycardia, hypertension, and arrhytmias
+      Misc.: Monitor paitnets with ECF for tachycardia and watched for hypertension.
+        MAOIs and TCAs can increase the potency of dobutamine.
+    Simvastatin:
+      Block:
+      - '2'
+      Case:
+      - C5
+      Drug: Simvastatin
+      Class: HMG-CoA reductase inhibitor
+      Mechanism: competitively inhibits HMG-CoA reductase --> inhibition of rate-limiting
+        cholesterol synthesis step --> increase in LDL receptors --> increased LDL
+        catabolism
+      Therapeutic Use: dyslipidemia, prevention of CVD
+    Atorvastatin:
+      Block:
+      - '2'
+      Case:
+      - C2
+      Drug: Atorvastatin
+      Class: Statin
+      Mechanism: HMG CoA reductase inhibitor. Decreases LDL and cholesterol levels.
+        Can also increase HDL and decrease triglycerides
+      Therapeutic Use: Dyslipidemia
+      Adverse Effects: Hepatotoxicity, rash, rhabdomyolysis, myopathy
+      Misc.: Monitor liver enzymes, administer at bedtime, and avoid grapefruit. More
+        potent at reducing cholesterol than Simvastatin. (by more than 50% instead
+        of 30-50%)
+    Aspirin:
+      Block:
+      - '2'
+      Case:
+      - C2
+      Drug: Aspirin
+      Class: Analgesics
+      Mechanism: |-
+        Acts on hypothalamus to produce antipyresis; anti-inflammatory properties attributed to prostaglandin synthetase inhibition resulting in decreased formation of thromboxane A2. Actions are dose dependent
+        IRREVERSIBLY binds COX1 and COX2
+      Therapeutic Use: |-
+        Pain, fever, inflammation
+        Taken to prevent heart attacks, strokes and chest pain
+      Adverse Effects: "Tinnitus, dyspepsia, Reye's \n syndrome"
+      Misc.: D, in 3rd trimester can cause premature closure of ductus arteriousus
+    Warfarin:
+      Block:
+      - '2'
+      Case:
+      - C2
+      Drug: Warfarin
+      Mechanism: Inhibits epoxide reductase. This ezyme is needed to convert vitamin
+        K to its active form hydroxyquinone, preventing the carboxyliation of glutamic
+        acid on clotting factors II, VII, IX, and X (1972) and protein C and S. (Extrinsic
+        pathway inhibition)
+      Therapeutic Use: Chronic anticoagulation such as atrial fibrilation, artifical
+        heart valves, previous pulmonary embolism, and DVT
+      Adverse Effects: Bleeding and necrosis. Warfarin is metabolized through cytochrome
+        p450 and should not be used with a P450 inhibitor.
+      Misc.: 'Commonly given with heparin becuase for days 4-5, warfarin is preventing
+        active factors from being formed, the previously formed factors must degrade.  Should
+        not be taken while pregnant. '
+    Clopidogrel:
+      Block:
+      - '2'
+      Case:
+      - C2
+      Drug: Clopidogrel
+      Mechanism: ADP receptor antagonist, preventing ADP mediated aggregation. These
+        effects are IRREVERSIBLE and last the full lifespan of the platelet. Absorbed
+        by the GIT.
+      Therapeutic Use: Acute coronary syndrome, prevention of thrombotic events
+      Adverse Effects: Bleeding, thrombotic thrombocytopenic purpura (TTP), panctopenia,
+        abdominal pain
+      Misc.: Withhold before surgery
+    Metoprolol:
+      Block:
+      - '2'
+      Case:
+      - C2
+      Drug: Metoprolol
+      Class: Selective Beta 1 Blockers
+      Mechanism: Beta 1 blocker that blocks the B1 adrenergic receptors. Bind to Gs
+        proteins and inhibit the formation of cAMP from ATP. This prevents intracellular
+        calcium and leads to decreased calcium currents by the sarcoplasmic reticulum
+        of the heart. Resulting in decreased heart contracility and decreased peripheral
+        vascular resistance.This also decreases SA and AV node conduction velocity
+        (decreases dromotropy). Decreases renin secretion, whcih reduces the heart
+        oxygen demand by lowering extracellular volume and increasing the oxygen carrying
+        capacity of blood. It crosses the blood brain barrier, it can be used for
+        migraine prophylaxis.
+      Therapeutic Use: Rate control, hypertension, angina, MI, CHF, migraine prophylaxis,
+        and anxiety
+      Adverse Effects: Should not be used in patients with asthma or heart blocks
+      Misc.: Do not stop Beta blockers abruptly, can mask signs of hypoglycemia, assess
+        blood pressure and heart rate. This is in IV form versus Atenolol which is
+        PO.
+    Lisinopril:
+      Block:
+      - '2'
+      Case:
+      - C2
+      Drug: Lisinopril
+      Class: ACE inhibitor
+      Mechanism: Prevents the conversion of angiotensin I to angiotensin II (powerful
+        vasoconstrictor) through competitive inhibition of angiotensin-converting
+        enzyme resulting in decreased plasma angiotensin II concentrations; blood
+        pressure may be reduced in part through decreased vasoconstriction, increased
+        renin activity, and decreased aldosterone secretion
+      Therapeutic Use: Hypertension, acute MI, Heart failure
+      Adverse Effects: |-
+        Chest pain, hepatic failure,
+          /renal failure Very important side effects: hyperkalemia, cough, increase in serum creatinine/BUN (expected increase) & ANGIOEDEMA (rare)
+      Misc.: D
+    Albuterol:
+      Block:
+      - '2'
+      Case:
+      - C3
+      Drug: Albuterol
+      Class: Beta 2 agonist
+      Mechanism: 'short acting beta 2 receptor agonist with some beta1 activity. This
+        med relaxes bronchial smooth muscle producing bronchodilation. '
+      Therapeutic Use: Bronchospasm, asthma, hyperkalemia, tachydysrhytmias, angina,
+        and tremors
+      Adverse Effects: Tachycardia, Hypokalemia, paradoxical bronchospasm
+      Misc.: Rinse mouth to remove taste and decrease risk of fungal infection after
+        use
+    Ciprofloxacin:
+      Block:
+      - '2'
+      Case:
+      - C5
+      Drug: Ciprofloxacin
+    Vitamins ADEK:
+      Block:
+      - '2'
+      Case:
+      - C3
+      Drug: Vitamins ADEK
+      Class: Fat solube vitamins
+    Pulmozyme:
+      Block:
+      - '2'
+      Case:
+      - C3
+      Drug: Pulmozyme
+      Class: Mucolytic DNase
+      Mechanism: selectively hydrolyzes the deoxyribonucleic acid in sputum --> reduced
+        sputum viscoelasticity --> allows for coughing up the mucous and improves
+        airflow (because in CF there are a lot of neutrophils at the site, which degrade,
+        and their sticky DNA builds up in the airway secretions, decreases mucociliary
+        transport out)
+      Therapeutic Use: improvement of Cystic Fibrosis pulmonary function
+      Adverse Effects: hemoptysis, CP, rash, pharyngitis
+    Vancomycin:
+      Block:
+      - '2'
+      Case:
+      - C3
+      Drug: Vancomycin
+      Class: Glycopeptide
+      Mechanism: Inhibits cell-wall biosynthesis; blocks glycopeptide polymerization
+        by binding tightly to D-alanyl-D-alanine portion of cell wall precursor. Should
+        be used when other antobiotics failed
+      Therapeutic Use: C. difficile, Staph, Endocarditis, preoperative/ surgical antimicrobial
+        prophylaxis
+      Adverse Effects: Flushing of skin (red man syndrome), thrombophlebitis, ototoxicity,
+        nephrotoxicity can be prevented with antihistamine and slow infusion
+    Diphenhydramine:
+      Block:
+      - '2'
+      Case:
+      - C3
+      Drug: Diphenhydramine
+      Class: 1st generation H1 Antagonist
+      Mechanism: Act as a competitive antagonists of histamine and so may be ineffective
+        at high levels of histamine and is a muscularinic blockers used for motion
+        sickness. Metabolised through the liver and 1st generation can cross the placental
+        barrier. Strongest M block, sedation, and second strongest antimotion effects
+        (next to meclizine) in antihistamine class are associated with this drug.
+      Therapeutic Use: Allergic reactions, motion sickness, nausea, and vomiting with
+        pregnancy, Parkinsons disease
+      Adverse Effects: Extensions of M block and sedation
+    Minocycline:
+      Block:
+      - '2'
+      Case:
+      - C3
+      Drug: Minocycline
+      Class: Tetracycline
+      Mechanism: Inhibits bacteria's protein synthesis binding to 30S; may block dissociation
+        of peptidyl t-RNA from ribosomes, causing RNA-dependent protein synthesis
+        to arrest. Minocycline has broader spectru mthan other members of group. Long
+        acting with half life 2-4x other tetracyclines. It is also the most lipid
+        soluble, giving it the highest penetration into the brain and prostate.
+      Therapeutic Use: Infections with gram + or - bacteria (i.e. acne, UTI, intestinal
+        infections, eye infections, gonorrhea, chlamydia, mycoplasma pneumonia, rickettsia,
+        borrelia burgdoferi, gum disease and others)
+      Adverse Effects: |-
+        Vertigo (VESTIBULAR TOXICITY), impaired bone growth
+         teeth discoloration, photosensitivity, GI side effects, binds to Ca2+, Fe2+ (stagger with dair products or multivitamins by atleast 2-4 hours!!!)
+    Ampicillin:
+      Block:
+      - '2'
+      Case:
+      - C3
+      Drug: Ampicillin
+      Class: Aminopenicillin
+      Mechanism: Penicillins inhibit bacterial cell wall synthesis. Disruption of
+        this process weakens the bacterial cell wall, allowing water to enter the
+        cell, eventually causing cell lysis or rupture.
+      Therapeutic Use: INEFFECTIVE AGAINST S. aureus, unless combined with beta lactamase
+        inhibitors
+      Adverse Effects: Rash, diarrhea, super infection, allergy
+    Cephalothin:
+      Block:
+      - '2'
+      Case:
+      - C3
+      Drug: Cephalothin
+    Clindamycin:
+      Block:
+      - '2'
+      Case:
+      - C3
+      Drug: Clindamycin
+      Class: 50S inhibitor
+      Mechanism: Bacterostatic antibiotic that blocks peptide bond formation at the
+        50S ribosomal subunit. Blocks translocation and elongation of the polypeptide
+        chain of bacterial proteins of the ribosomal subunit.
+      Therapeutic Use: Gram (+) Anaerobic infections above the diaphragm like bacteriodes
+        fragilis and clostridium perfringens. Used to treat aspiration pneumonia and
+        lung abscess.
+      Adverse Effects: arrhytmias, blood dyscrasias, rash, and pseudomembranous colitis
+        (an infection of the colon characterized by foul smelling diarrhea, fever,
+        and abdominal pain caused by C. difficle infection via the destruction of
+        normal flora); HIGHEST RISK TO CAUSE C. DIFF
+    Erythromycin:
+      Block:
+      - '2'
+      Case:
+      - C3
+      Drug: Erythromycin
+      Class: Macrolide
+      Mechanism: Macrolide antibiotic that inhibits protein synthesis by binding to
+        the 23S rRNA of the 50S ribosomal subunit and blocking translocation.  Motilin
+        agonist and associated with GI disturbances. Also inhibits P450.
+      Therapeutic Use: Gram (+) cocci, atypical pneumonia caused by mycoplasma, chlamydia,
+        and legionella
+      Adverse Effects: Prolonged QT interval, diarrhea, cholestatic hepatitis, eosinophillia,
+        skin rash
+      Misc.: Resistance by post transcriptional methylation of the 23S rRNA binding
+        site, preventing binding of macrolide. Should not be used with Statins or
+        warfarin.
+    Oxacillin:
+      Block:
+      - '2'
+      Case:
+      - C3
+      Drug: Oxacillin
+    Penicillin:
+      Block:
+      - '2'
+      Case:
+      - C3
+      Drug: Penicillin
+    Teracycline:
+      Block:
+      - '2'
+      Case:
+      - C3
+      Drug: Teracycline
+    Trimethoprim:
+      Block:
+      - '2'
+      Case:
+      - C3
+      Drug: Trimethoprim
+      Mechanism: Bacteriostatic antibiotic that inhibits bacterial dihydrofolate reducatse.
+        Inhibition leads to to inhibiton of the synthesis of tetrahydrofoloic acid
+        whic hsi essential in the synthesis of nucleotides for DNA synthesis. Commonly
+        used with sulfamethoxazole, a competitive antagonist of PABA metabolite and
+        causes inhibition of the enzyme dihydropteorate syntehtase, also in the folic
+        acid synthesis pathway. (synergistic effect)
+      Therapeutic Use: Recurrent UTIS, shigella, salmonella, pneumocytis jiroveci
+        pneumonia
+      Adverse Effects: 'Hematologic toxicity (ie. anemia), nephrotoxicity, rash, crystalls
+        in urine, '
+      Misc.: Long term use of trimethoprim, may need to give folic acid
+    ! '':
+      Block:
+      - '2'
+      Case:
+      - C3
+      Class: Sulfonamides
+      Mechanism: Bacteriostatic antibiotics that contain a sulonamide moiety. Structural
+        analogs and competitive antagonists of paraaminobenzoic acid (PABA) and compete
+        with PABA for incorporation into folic acid. Incorporation of sulonnamides
+        causes inhibition of the enzyme dihydropteroate synthetase in the folic acid
+        synthesis pathway.
+      Therapeutic Use: Gram positive and gram negative bacteria. Also work for nocardia
+        and chlamydia. Staphylococcus and Streptococcus, E. coli, and oral anerobes.
+    Levofloxacin:
+      Block:
+      - '2'
+      Case:
+      - C3
+      Drug: Levofloxacin
+      Class: Fluoroquinolone
+      Mechanism: Broad spectrum antibiotic drugs. Bactericidal. Inhibit topoisomerase
+        II enzyme including bacterial gyrase, which cuts both strands of the DNA helix
+        in order to unwind DNA tangles and supercoils necessary for proper DNA replication.
+        Also a P450 inhibitor.
+      Therapeutic Use: Gram negative rods like E.voli and is 1st line for UTIs. Pseudomonas
+        and Neiseeria.
+      Adverse Effects: P450 inhibitor and can result in increased plasma concentrations
+        of other drugs metabolised by this system. GI distress, Photosensitivity,
+        Achilles tendon rupture.
+      Misc.: Do not use while pregnant. in children, or in patients with myasthenia
+        gravis. Patients should also avoid milk products, antiacids, and should be
+        given slow IV infusion.
+    Amikacin:
+      Block:
+      - '2'
+      Case:
+      - C3
+      Drug: Amikacin
+      Class: Aminoglycosides
+      Mechanism: Irreversibly bind to the 30S ribosomal subunit in bacteria to inhibit
+        formation of initation complex and interfere with the mRNA proofreading complex.
+        Also inhibit translocation of peptidyl tRNA and disrupt bacterial cell membranes.
+        Bactericidal. Requires O2 for uptake and are therefore ineffective against
+        anaerobes, which do not require oxygen.
+      Therapeutic Use: 'PSEUDOMONAS, ENTEROBACTER, and SERRATIA. Used to treat aerobic
+        gram positive rod infections including Pseudomonas and Enterobacter. Septicemia,
+        complicated intrabdominal infections, UTIs, and nosocomial URIs. Not given
+        orally, due to poor absorption from the small intestine. '
+      Adverse Effects: SHOULD NOT BE GIVEN ORALLY. Nephrotoxicity when used with cephalosporins,
+        Ototoxcitiy when used with loop diuretics. Also a teratogen.
+      Misc.: 'Resistance via 3 types of transferase enzymes (found on plasmids and
+        transposons): 1. Acetylation, 2. Phosphorylation, 3. Adenylation                          Syncergistic
+        with B lactam antibiotics in streptococcal infections. Commonly used with
+        Ampicillin'
+    Cefepime:
+      Block:
+      - '2'
+      Case:
+      - C3
+      Drug: Cefepime
+      Class: 4th Generation Cephalosporin
+      Mechanism: Beta lactam antibiotics that inhibit bacterial cell wall synthesis.
+        they have extensive spectrum coverage for gram negative compared to the previous
+        generation and can cover pseudomonas.
+      Therapeutic Use: Gram (+) and Gram (-). Increased activity against pseudomonas.
+        Can cover multiresistant bacteria such as pseudomonas.
+    Ceftazidime:
+      Block:
+      - '2'
+      Case:
+      - C3
+      Drug: Ceftazidime
+      Class: 3rd Generation Cephalosporin
+      Mechanism: bind to PBPs --> prevent PPG cross-linking --> inhibit cell wall
+        synthesis
+      Therapeutic Use: gram - coverage; recommended therapy for mucoid Pseudomonas
+        aeruginosa
+      Adverse Effects: increased ALT/AST, diarrhea, eosinophilia, positive direct
+        coombs, thrombocytopenia
+    Meropenem:
+      Block:
+      - '2'
+      Case:
+      - C3
+      Drug: Meropenem
+      Class: |-
+        Carbapenems
+         β-lactam antibiotic
+      Mechanism: Inhibits cell-wall synthesis by binding to penicillin-binding proteins;
+        resistant to most beta-lactamases.
+      Therapeutic Use: "Febrile neutropenia, complicated skin \n infection, complicated
+        intra-abdominal infection, community aquired pnemonia"
+      Adverse Effects: |-
+        Cardiac arest, Leukopenia,            can be prevented with antihistamine and slow infusion
+         neutropenia, positive Coombs test
+    Piperacillin:
+      Block:
+      - '2'
+      Case:
+      - C3
+      Drug: Piperacillin
+      Class: Beta Lactamase Inhibitors
+      Mechanism: Beta lactam antibiotic used for pseudomonal infections. It is commonly
+        combined with beta lactamase inhibitor and administered as piperacillin tazobactam
+        combo. Cannot be fiven orally and therefore is always given IV or IM. Unlike
+        penicillins, these drugs have activity against gram negative organisms like
+        pseudomonas aeruginosa and proteus mirabilis.
+      Therapeutic Use: Pseudomonas aeruginosa and proteus mirabilis.
+    Tazobactam:
+      Block:
+      - '2'
+      Case:
+      - C3
+      Drug: Tazobactam
+      Class: Beta Lactamase Inhibitors
+      Mechanism: Inhibitors commonly combined with penicillin group antibiotics to
+        overcome beta lactamase resistance in bacteria. Tazobactam is combined with
+        piperacillin and extends the spectrum of piperacillin for pseudomonal species.
+    Ticarcillin:
+      Block:
+      - '2'
+      Case:
+      - C3
+      Drug: Ticarcillin
+      Class: Beta Lactamase Inhibitors
+    Tobramycin:
+      Block:
+      - '2'
+      Case:
+      - C3
+      Drug: Tobramycin
+      Class: Aminoglycosides
+      Mechanism: Irreversibly bind to the 30S ribosomal subunit in bacteria to inhibit
+        formation of initation complex and interfere with the mRNA proofreading complex.
+        Also inhibit translocation of peptidyl tRNA and disrupt bacterial cell membranes.
+        Bactericidal. Requires O2 for uptake and are therefore ineffective against
+        anaerobes, which do not require oxygen.
+      Therapeutic Use: BETTER AT TREATING PSEUDOMONAL INFECTIONS OF THE LUNG than
+        Gentamicin. Used to treat aerobic gram positive rod infections including Pseudomonas
+        and Enterobacter. Septicemia, complicated intrabdominal infections, UTIs,
+        and nosocomial URIs. Not given orally, due to poor absorption from the small
+        intestine. Can also be used as an opthalmic soluction for bacterial conjunctivitis.
+      Adverse Effects: SHOULD NOT BE GIVEN ORALLY. Nephrotoxicity when used with cephalosporins,
+        Ototoxcitiy when used with loop diuretics. Also a teratogen.
+      Misc.: 'Resistance via 3 types of transferase enzymes (found on plasmids and
+        transposons): 1. Acetylation, 2. Phosphorylation, 3. Adenylation                          Syncergistic
+        with B lactam antibiotics in streptococcal infections. Commonly used with
+        Ampicillin'
+    Atenolol:
+      Block:
+      - '2'
+      Case:
+      - C5
+      Drug: Atenolol
+    Amitriptyline:
+      Block:
+      - '2'
+      Case:
+      - C4
+      Drug: Amitriptyline
+      Class: tricyclic antidepressant
+      Mechanism: inhibits serotonin and norepinephrine reuptake by presynaptic neuron
+        membrane pumps in CNS --> increased concentrations at the synapse for postsynaptic
+        effects
+      Therapeutic Use: depression; off-label migraine prophylaxis among other random
+        things
+      Adverse Effects: anticholinergic effects; sedation
+      Misc.: black box warning for suicidal thoughts. TCA overdose cause changes on
+        an ECG. Widened QRS complex leads to seizures and ventricular arrhythmia.
+    Sumatriptan:
+      Block:
+      - '2'
+      Case:
+      - C4
+      Drug: Sumatriptan
+      Class: antimigraine agent; serotonin 5-HT receptor agonist
+      Mechanism: selective agonist for serotonin 5-HT receptors on blood vessels of
+        the cranium and sensory trigeminal nerves (intervate the face) --> vasoconstriction
+        of those vessels, decreased neurogenic inflammation --> migraine relief
+      Therapeutic Use: migraine with or without aura, cluster headache
+      Adverse Effects: paresthesia, dizziness, chest discomfort
+    Nitroprusside:
+      Block:
+      - '2'
+      Case:
+      - C4
+      Drug: Nitroprusside
+      Class: antihypertensive; vasodilator
+      Mechanism: direct action on venous and arteriolar smooth muscle via NO metabolite
+        (think NTG) (increase in cGMP, which inactivates myosin light chains and causes
+        smooth muscle relaxation)--> peripheral vasodilation --> reduces peripheral
+        resistance --> decreased preload and afterload --> increased cardiac output
+        --> reduces aortal and LV stress and decreased BP
+      Therapeutic Use: hypertensive crises; aortic dissection; acute decompensated
+        heart failure
+      Misc.: black box warning for thiocyanate toxicity; not used long-term for that
+        reason; given with beta-blocker for aortic dissection to inhibit heart's natural
+        compensation i.e. tachycardia and increased contractility, preventing heart
+        from working too hard
+    Meperidine:
+      Block:
+      - '2'
+      Case:
+      - C4
+      Drug: Meperidine
+      Mechanism: Strong short term opioid receptor agonist that works by activating
+        mu receptors in the central nervous system and periphery to produce analgesia.
+        Also causes pain relief, sedation, respiratory depression, cough suppression,
+        and decreased intestinal peristalsis. This is the opioid that does NOT cause
+        miosis (most physician abused)
+      Therapeutic Use: Moderate to severe pain and post anesthesia shivering
+      Adverse Effects: sedation, constipation, CNS depression, and tremors
+      Misc.: Considered a dirty drug as it could cause seizures. Most physicians stopped
+        prescribing this today. Should be used cautiously in patients with renal failure,
+        as metabolites can acculumate in the kidneys causing toxicity. Should not
+        be taken with MAO inhibitiors, selective serotonin reuptake inhibitors, or
+        tricyclic antidepressants, due to increased risk of serotonin syndrome, coma,
+        and death
+    Labetalol:
+      Block:
+      - '2'
+      Case:
+      - C4
+      Drug: Labetalol
+      Class: alpha/beta blocker
+      Mechanism: blocks alpha 2 receptors to vasodialate and also blocks beta 1 receptors
+        to decrease heart rate and contractility. Comparable to propanolol and metoprolol
+        but works better at reducing diastolic blood pressure
+    Azithromycin (Z-pack):
+      Block:
+      - '2'
+      Case:
+      - C5
+      Drug: Azithromycin (Z-pack)
+      Class: antibiotic; macrolide
+      Mechanism: binds to 50S ribosomal subunit --> inhibits protein synthesis
+      Therapeutic Use: lots and lots of bacterial infections
+      Adverse Effects: loose stools, vomiting, nausea
+    Imodium (loperamide):
+      Block:
+      - '2'
+      Case:
+      - C5
+      Drug: Imodium (loperamide)
+      Class: anti-diarrheal agent
+      Mechanism: binds to opiod receptor --> activates mu opiod receptor (inhibitory)
+        in myenteric plexus of the colon --> decreases myenteric plaxus activity ;
+        decreased motility of longitudinal and circular smooth muscle of the colon
+        --> inhibits peristalsis --> prolongs time of transit through intestine -->
+        reduces fecal volume and increases viscosity. Slows intestinal motility though
+        opiod receptor, directly affects circular and longitudinal mucle, reduces
+        fecal volume and increases viscosity
+      Therapeutic Use: chronic diarrhea due to IBD; diarrhea of acute nonspecific
+        origin
+      Adverse Effects: constipation, abdominal cramping, nausea
+      Misc.: long-acting, no effects on adrenergic system or CNS because only a small
+        amount can pass the blood-brain barrier!
+    Omeprazole:
+      Block:
+      - '2'
+      Case:
+      - C6
+      Drug: Omeprazole
+      Misc.: given to this pt because cysteamine has a vomiting side effect
+      Class: Proton pump inhibitor (PPI)
+      Mechanism: IRREVERSIBLE INHIBITION. Binds to H+/K+-exchanging ATPase (proton
+        pump) in gastric parietal cells, resulting in suppression of basal and stimulated
+        acid secretion
+      Therapeutic Use: GERD, erosive esophagitis, gastric ulcer, duodenal ulcer, helicobacter
+        pylori infection
+      Adverse Effects: |-
+        Bone fractures, hepatotoxicity, pneumonia (due do decreased acidity)
+         rhabdomyolysis, pancreatitis
+    Benazepril:
+      Block:
+      - '2'
+      Case:
+      - C5
+      Drug: Benazepril
+      Class: ACE inhibitor; antihypertensive
+      Mechanism: competitive inhibitor of angiotensin-converting enzyme, prevents
+        angiotensin I --> angiotensin II; increased renin, decreased constriction
+        and aldosterone; decreased Na+ and reabsorption; increaesd water extretion;
+        decreased blood volume and BP
+      Therapeutic Use: hypertension, CKD, CAD
+      Adverse Effects: headache, dizziness, drowsiness, increased creatinine, renal
+        insufficiency
+      Misc.: teratogen - avoid with pregnancy
+    Flonase:
+      Block:
+      - '2'
+      Case:
+      - C5
+      Drug: Flonase
+      Class: nasal corticosteroid
+      Mechanism: utilizes fluorocarbothioate ester linkage at the 17th C position
+        to cause effects --> vasoconstrictive, anti-inflammatory activity
+      Therapeutic Use: nonallergic rhinitis, allergic rhinitis, allergies
+      Adverse Effects: headache
+    Metronidazole:
+      Block:
+      - '2'
+      Case:
+      - C5
+      Drug: Metronidazole
+      Class: amebicide; antibiotic
+      Mechanism: interacts with DNA --> causes loss of DNA helical structure --> DNA
+        strand breaks --> inhibition of protein synthesis --> cell death
+      Therapeutic Use: anaerobic bacterial infections such as intra-abdominal
+      Adverse Effects: metallic taste, rash, flattened T waves, dizziness
+      Misc.: preferred use for first time ocurrence of C. diff
+    Mesalamine:
+      Block:
+      - '2'
+      Case:
+      - C5
+      Drug: Mesalamine
+      Class: 5-ASA
+      Mechanism: modulates factors that mediate inflammatory response, also a free
+        radical scavenger
+      Therapeutic Use: maintenance of ulcerative colitis
+      Adverse Effects: pain, eructation, nausea, colitis exacerbation; can cause diarrhea
+        so pt was asked to d/c the drug
+    Prednisone:
+      Block:
+      - '2'
+      Case:
+      - C5
+      Drug: Prednisone
+      Class: corticosteroid
+      Mechanism: metabolized in the liver to prednisolone --> binds to glucocorticoid
+        receptor --> translocates to nucleus --> effects directly on DNA transcription
+        --> up-regulation of anti-inflammatory proteins --> suppresses inflammation
+        and immune system
+      Therapeutic Use: allergies, asthma, anti-inflammatory (IBDs), immunosuppression
+      Adverse Effects: weight gain, fluid retention, increased BP
+      Misc.: 'Should taper off as it reduces the body''s natural production of corticosteroids. '
+    Diphenoxylate:
+      Block:
+      - '2'
+      Case:
+      - C5
+      Drug: Diphenoxylate
+      Class: anti-diarrheal agent
+      Mechanism: binds to opiod receptor --> simulates mu opiod receptors in GI tract
+        --> decreased peristalsis and contraction of sphincters ; direct effects on
+        circular and longitudinal smooth muscle of colon --> inhibits peristalsis
+        --> prolongs time of transit through intestine
+      Therapeutic Use: andjunctive therapy for symptomatic treatment of diarrhea
+      Adverse Effects: constipation; anticholinergic effects (when paired with atropine)
+        like dry mouth, dizziness, blurred vision, sedation, confusion, headache can
+        cause toxic megacolon in the setting of acute colitis
+      Misc.: This is a schedule II drug!!!! It has a high risk of abuse and can lead
+        to opiod dependence as it can cause euphoria and sedation when taken in high
+        doses/for a long time. SO it is almost always given with a small dose Atropine
+        as Lomotil, a combo drug that decreases its risk of dependence and makes it
+        a schedule V drug.
+    Methylprednisolone:
+      Block:
+      - '2'
+      Case:
+      - C5
+      Drug: Methylprednisolone
+      Class: corticosteroid
+      Mechanism: bind to inracellular receptors --> translocate into the nucleus -->
+        regulate gene expression --> increases carb, protein, lipid metabolism; suppresses
+        migration of PMN leukocytes --> decreases inflammation
+      Therapeutic Use: anti-inflammatory, immunosuppression, prevention of graft vs
+        host disease after bone marrow transplantation
+      Adverse Effects: lots; think weight gain
+      Misc.: Can be given IV as compared to prednisone
+    Ganciclovir:
+      Block:
+      - '2'
+      Case:
+      - C5
+      Drug: Ganciclovir
+      Class: anti-viral
+      Mechanism: phosphorylated to Ganciclovir triphosphate --> competitively inhibits
+        binding of dGTP to viral DNA polymerase --> inhibition of viral DNA synthesis
+      Therapeutic Use: CMV in immunocompromised patients
+      Adverse Effects: diarrhea, fever, thrombocytopenia
+      Misc.: black box warning for toxicity sxs of granulocytopenia, anemia, thrombocytopenia;
+        black box warning that it is a carcinogenic and teratogenic
+    Infliximab:
+      Block:
+      - '2'
+      Case:
+      - C5
+      Drug: Infliximab
+      Class: immunosuppressant; TNF blocking agent
+      Mechanism: This is specifically an Anti-TNF alpha antibody that binds and inhibits
+        TNF alpha--> interfers with TNF activity --> decreaes proinflammatory cytokine
+        induction, leukocyte migration, neutrophil and eosinophil activation
+      Therapeutic Use: ulcerative colitis; arthritis, chron's dz
+      Adverse Effects: Increase risk of infection and predisposes patients to TB reactivation,
+        fever, hypotension. Patients should receive PPD before receiving this med
+      Misc.: black box warning for increased risk of serious infections with this
+        medication
+    Potassium citrate (Cytra-3):
+      Block:
+      - '2'
+      Case:
+      - C6
+      Drug: Potassium citrate (Cytra-3)
+      Class: alkalinizing agent
+      Mechanism: metabolized to bicarbonate in the liver --> alkalizing agent of the
+        urine
+      Therapeutic Use: maintain alkaline urine for control of uric acid or cystine
+        calculi in the urinary tract; prevention of uric acid nephrolithiasis
+      Adverse Effects: GI upset; hyperkalemia
+    Potassium phosphate (Nutra-phos):
+      Block:
+      - '2'
+      Case:
+      - C6
+      Drug: Potassium phosphate (Nutra-phos)
+      Class: dietary electrolyte supplement; parenteral
+      Mechanism: increases levels of potassium and phosphate in the blood
+      Therapeutic Use: treatment and prevention of hypophosphatemia
+      Adverse Effects: hyperkalemia and assocaited cardiovascular effects, tetany
+        with large doses of phosphate
+    Cysteamine bitartrate (Cystagon):
+      Block:
+      - '2'
+      Case:
+      - C6
+      Drug: Cysteamine bitartrate (Cystagon)
+      Class: anticystinic agent; urinary tract product
+      Mechanism: reacts with cystine within the lysosome to convert cystine --> cysteine
+        AND forms cystine-cysteamine mixed disulfide complexes; both of these able
+        to leave the lysosome via their own specific transporters. Allows cysteamine
+        to leave through the lysine transporter of the lysosome PQLC2 (lysine channel).
+      Therapeutic Use: treatment of nephropathic cystinosis
+      Adverse Effects: vomiting, anorexia, diarrhea, rash, fever, lethargy
+      Misc.: does not reverse the kidney damage but slows progression of renal failure;
+        teratogenic
+    Calcitrol:
+      Block:
+      - '2'
+      Case:
+      - C6
+      Drug: Calcitrol
+      Class: vitamin D analog
+      Mechanism: active form of Vitamin D, binds to and activates vitamin D receptor
+        in kidney, parathyroid gland, intestine, and bone --> stimulates intestinal
+        calcium absorption and transport --> reduces PTH levels, stimulates bone resorption
+        and renal tubular reabsorption of calcium --> improves calcium and P homeostasis
+      Therapeutic Use: management of hypocalcemia in patients on renal dialysis; secondary
+        hyperparathyroidism in patients with CKD not yet on dialysis
+      Adverse Effects: suppression of PTH with excessive administration, hypercalcemia,
+        hypercalcuria, hyperphosphatemia
+    Levocarnitine:
+      Block:
+      - '2'
+      Case:
+      - C6
+      Drug: Levocarnitine
+      Class: dietary supplement
+      Mechanism: increases plasma carnitine concentrations --> carrier for long-chain
+        fatty acids --> stimulates energy production
+      Therapeutic Use: primary and secondary carnitine deficiencies
+      Adverse Effects: no major ones
+      Misc.: given to this pt because pts with ESRD have low plasma carnitine due
+        to reduced inake of foods with carnitine, losses in urine, and decreased renal
+        synthesis of carnitine
+    Somatropin:
+      Block:
+      - '2'
+      Case:
+      - C6
+      Drug: Somatropin
+      Class: growth hormone
+      Mechanism: identical amina acid sequence as that found in human growth hormine
+        --> assists in/stimulates growth of linear bones, skeletal muscle, lipolsis,
+        protein synthesis, and hepatic glucose output; stimulates production of EPO
+        --> increased RBC production
+      Therapeutic Use: treatment of short stature and/or growth failure for any number
+        of reasons
+      Adverse Effects: fluid retention, hypersensitivity, intracranial HTN, pancreatitis,
+        slipped epiphyses
+    Iron:
+      Block:
+      - '2'
+      Case:
+      - C6
+      Drug: Iron
+      Class: dietary supplement
+      Mechanism: ferrous sulfate iron salt increases iron content in the body -->
+        better production and functioning of Hgb, myoglobin, and other enzymes
+      Therapeutic Use: prevention and treatment of iron-deficiency anemia
+      Adverse Effects: GI upset; constipation, diarrhea
+    Erythropoeitin:
+      Block:
+      - '2'
+      Case:
+      - C7
+      Drug: Erythropoeitin
+      Class: CSF; erythropoiesis-stimulating agent; hematopoietic agent
+      Mechanism: increaes erythropoietin concentration in the body --> stimulates
+        division and differentiation of erythroid progenitor cells --> induces erythropoiesis
+        and release of reticulocytes from bone marrow --> increased Hct and Hgb levels
+      Therapeutic Use: treatment of anemia in pts with CKD, HIV, those undergoing
+        myelosuppressive chemotherapy
+      Adverse Effects: MI, stroke, venous thromboembolism
+      Misc.: black box warning for cardiovascular events, especially in those with
+        CKD; warning that DVT prophylaxis should be considered due to the risks
+    Furosemide:
+      Block:
+      - '2'
+      Case:
+      - C7
+      Drug: Furosemide
+      Class: loop diuretic; antihypertensive
+      Mechanism: inhibits Na/K/2Cl transporter in ascending limb --> increased excretion
+        of Na, water, Cl, Mg, and Ca
+      Therapeutic Use: edema ssociated with heart failure, renal or hepatic disease;
+        treatment of HTN alone or in combo with other antihypertensives
+      Adverse Effects: hypotension, hypocalcemia, hypokalemia, hypomagnesia
+      Misc.: recommended therapy to bring down BP in a hypertensive crisis overseveral
+        hours(versus days)
+    Metroprolol:
+      Block:
+      - '2'
+      Case:
+      - C7
+      Drug: Metroprolol
+    Nifedipine:
+      Block:
+      - '2'
+      Case:
+      - C7
+      Drug: Nifedipine
+      Class: calcium-channel blocker; dihydropyridine; antihypertensive; antianginal
+        agent
+      Mechanism: inhibits Ca from entering "slow" channels of vascular smooth muscle
+        during depolarization --> relaxation of vascular smooth muscle --> vasodilation
+        --> reduces peripheral vascular resistance --> reduced arterial BP
+      Therapeutic Use: management of chronic stable or vasospastic angina; treatment
+        of hypertension
+      Adverse Effects: dizziness, lightheadednes, palpitations
+      Misc.: avoid use of sublingual form of this drug due to variable and unpredictable
+        changes in BP and adverse effects
+    Hydralazine:
+      Block:
+      - '2'
+      Case:
+      - C7
+      Drug: Hydralazine
+      Class: vasodilator; antihypertensive
+      Mechanism: direct vasodilation of arterioles, decresed systemic resistance (Decreased
+        Afterload). Mechanism is to increase cGMP
+      Therapeutic Use: management of moderate to severe hypertension
+      Adverse Effects: orthostatic hypotension, palpitations, tachycardia, dizziness
+      Misc.: little to no effect on veins!!!
+    Prazosin:
+      Block:
+      - '2'
+      Case:
+      - C7
+      Drug: Prazosin
+      Class: alpha-1 blocker; antihypertensive
+      Mechanism: competitively inhibits postsynaptic alpha-1 adrenergic receptors
+        --> vasodilation of veins and arterioles --> decreased TPR and BP
+      Therapeutic Use: treatment of hypertension
+      Adverse Effects: palpitations, dizziness, headache, nausea
+      Misc.: 2014 guideline for management of high BP in adults does not recommend
+        use of this drug for HTN
+    Spironolactone:
+      Block:
+      - '2'
+      Case:
+      - C7
+      Drug: Spironolactone
+      Class: potassium-sparing diuretic; antihypertensive; aldosterone receptor antagonist
+      Mechanism: competes with aldosterone for receptor sites in DCT --> increased
+        Na, Cl, and water excretion BUT conserves K and H
+      Therapeutic Use: excessive aldosterone excretion, primary aldosteronism, CHF,
+        HTN, hypokalemia
+      Adverse Effects: drowsiness, stevens-johnson syndrome, bunch of random ones
+      Misc.: avoid unnecessary use of this drug due to black box warning of its tumorigenic
+        possibility?
+    KCl supplement:
+      Block:
+      - '2'
+      Case:
+      - C7
+      Drug: KCl supplement
+      Class: electrolyte supplement; parenteral
+      Mechanism: increases levels of potassium in the blood; essential, major cation
+        of tons of processes in the blood so maintaining adequate levels is important
+      Therapeutic Use: treatment or prevention of hypokalemia
+      Adverse Effects: rash, hyperkalemia
+    omeprazole:
+      Block:
+      - '2'
+      Case:
+      - C8
+      Drug: omeprazole
+      Class: proton-pump inhibitor
+      Therapeutic Use: seen in Case 5; see above
+    hydrocodone/acetaminophen (vicodin):
+      Block:
+      - '2'
+      Case:
+      - C8
+      Drug: hydrocodone/acetaminophen (vicodin)
+      Class: analgesic combination opiod
+      Mechanism: Hydrocode binds to the opiate receptors mu and kappa, blocks pain
+        perception in the cerbral cortex. Acetaminophen inhibits prostaglandin synthesis
+        in CNS and blocks pain impulses and inhibits hypothalamic heat regulation
+        center --> antipyretic
+      Therapeutic Use: relief of moderate-severe pain
+      Adverse Effects: think opiod rxns (cns depression)
+      Misc.: black box warning for hepatotoxicity/liver failure secondary to the acetaminophen
+        when exceeding dosages of 4,000 mg/day
+    ortho-tri-cyclen-lo:
+      Block:
+      - '2'
+      Case:
+      - C8
+      Drug: ortho-tri-cyclen-lo
+      Class: ethinyl estradiol and norgestimate
+      Mechanism: inhibits FSH releaseduring follicular phase --> prevents follicular
+        maturation --> less likelihood of pregnancy
+      Therapeutic Use: oral contraceptive; moderate acne vulgaris
+      Adverse Effects: depression, mood changes, arterial or venous thromboembolism,
+        edema
+    fexofenadine (allegra):
+      Block:
+      - '2'
+      Case:
+      - C8
+      Drug: fexofenadine (allegra)
+      Class: 2nd gen anti-histamine
+      Mechanism: primarily blocks H1 Histamine receptors--> prevents action of Histamine
+        on uterus, blood vessels, sensory nerves, GI tract, skin, and bronchial muscle
+        which is normally constriction --> bronchodilation, decreased vasoconstriction,
+        reduced GI motility. Inhibits effects of eosinophilic Histamine release with
+        allergies. Has no CNS entry (no M block, no sedation, and not effective antimotion)
+      Therapeutic Use: allergic rhinitis
+      Adverse Effects: mild sedation, nausea, vomiting, diarrhea
+      Misc.: does not cross BBB so very little sedation
+    allergy immunotherapy:
+      Block:
+      - '2'
+      Case:
+      - C8
+      Drug: allergy immunotherapy
+      Class: immunotherapy
+      Mechanism: regular subQ or sublingual injection of an allergen into patient
+        with an allergy --> desensitizies the patient's immune system to that allergen
+      Therapeutic Use: allergic rhinits, asthma
+    eletriptan HBr (relpax):
+      Block:
+      - '2'
+      Case:
+      - C8
+      Drug: eletriptan HBr (relpax)
+      Class: anti-migraine agent
+      Mechanism: selective serotonin agonist (5-HT 1B/1D) in cranial blood vesels
+        --> vasoconstricts the vessels --> decreased migraine pain (which commonly
+        due to vasodilation).  Cause adenylate cyclase activity inhibition, therefore
+        increasing intracellular calcium and leading to inhibition of trigeminal nerve
+        firing CN V.
+      Therapeutic Use: migraine with or without aura
+      Adverse Effects: vertigo, nausea, drowsiness, muscle weakness
+    fluticasone propionate (flovent):
+      Block:
+      - '2'
+      Case:
+      - C8
+      Drug: fluticasone propionate (flovent)
+      Class: corticosteroid
+      Mechanism: utilizes fluorocarbothioate ester linkageat the 17th C position to
+        cause effects --> vasoconstrictive, anti-inflammatory, immunosuppressive activity
+      Therapeutic Use: asthma; off-label uses for COPD
+      Adverse Effects: fatigue, malaise, headache, candidiasis, URI, sinusitis, other
+        infections in that area where inhaled
+      Misc.: for Eosinophilic esophagitis, this is swallowed rather than inhaled to
+        hit the esophagus. Patients are instructed to wash their mouth out after use
+        bc if it stays in the mouth, it can cause oral thrush due to decreasing immune
+        repsonse where it hits.
+    albuterol inhaler:
+      Block:
+      - '2'
+      Case:
+      - C8
+      Drug: albuterol inhaler
+      Class: adrenergic beta-2 agonist; bronchidilator agent
+      Therapeutic Use: seen in Case 3; see above
+    montelukast (singulair):
+      Block:
+      - '2'
+      Case:
+      - C8
+      Drug: montelukast (singulair)
+      Class: anti-asthmatic; leukotriene receptor antagonist
+      Mechanism: inhibits cysteinyl leukotriene receptor. Leukotrienes have been associated
+        with ashtma pathophys including airway edema and smooth muscle contraction
+        - similar in allergic rhintis as leukotrienes are released from nasal mucosa.
+        Slow acting (not for acute treatment, use a beta2 instead)
+      Therapeutic Use: asthma prophylaxis and chronic treatment, seasonal allergic
+        rhinitis relief, prevention of exercise-induced bronchoconstriction
+      Adverse Effects: headache, dizziness, fatigue, rash, gastroenteritis
+    fluticasone/salmetrol (advair diskus):
+      Block:
+      - '2'
+      Case:
+      - C8
+      Drug: fluticasone/salmetrol (advair diskus)
+      Class: beta-2 agonist, corticosteroid, inhalant
+      Mechanism: combo drug; both a corticosteroid and a long-acting beta-2 agonist
+        (this one specifically relaxes bronchial smooth muscle without affecting HR);
+        acts locally in the lungs to improve pulmonary function moreso than when either
+        drug is used by itself
+      Therapeutic Use: asthma, COPD
+      Adverse Effects: headache, URI, pharyngitis
+Block 3:
+  key:
+  - Case
+  - Drug
+  - Class
+  - Mechanism
+  - Therapeutic Use
+  - Adverse Effects
+  - Misc.
+  drugs:
+    Argatroban:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Argatroban
+      Class: Anti-coagulant
+      Mechanism: Competitive, direct thrombin inhibitor; reversibly binds to thrombin
+        active site --> prevents fibrinogen conversion to fibrin
+      Therapeutic Use: Thrombocytopenia (prophylaxis/treatment in pts with HIT); percutaneous
+        coronary intervention
+      Adverse Effects: GI bleeding, hematuria, chest pain, hemoglobin and hematocrit
+        decrease
+      Misc.: This is hepatically metabolized and is used for people with suspected
+        renal failure
+    Aripiprazole:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Aripiprazole
+      Class: Atypical Antipyschotic; quinolone
+      Mechanism: 'D2 and 5-HT1A partial agonist; Anatagonist of 5-HT2A, H1, and alpha-1
+        receptors - decreases positive effects of too much dopamine and 5-HT2A receptors
+        --> decreases negative symptoms. '
+      Therapeutic Use: schizophrenia, bipolar I disorder, major depression disorder
+      Adverse Effects: Agranulocytosis, mild leukopenia. Sedation, EPS, orthostasis,
+        anticholinergic, weight gain, hyperprolactinemia. Overall lesser adverse effects
+        than the others
+      Misc.: Lowest risk of weight gain for antipyschotics
+    Atorvastatin:
+      Block:
+      - '3'
+      Case:
+      - C6
+      Drug: Atorvastatin
+      Class: Statin
+      Mechanism: HMG CoA reductase inhibitor. Decreases LDL and cholesterol levels.
+        Can also increase HDL and decrease triglycerides. Can cross BBB
+      Therapeutic Use: Dyslipidemia
+      Adverse Effects: Hepatotoxicity, rash, rhabdomyolysis, myopathy
+      Misc.: Monitor liver enzymes, administer at bedtime, and avoid grapefruit. More
+        potent at reducing cholesterol than Simvastatin. (by more than 50% instead
+        of 30-50%)
+    Benzotropine:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Benzotropine
+      Class: Dopamine uptake inhibitor; Parasympatholytic; antidyskinetic
+      Mechanism: Competitive M1 muscarinic acetylcholine receptor antagonist. Partially
+        blocks cholinergic activity in the CNS. Inhibits the reuptake of Dopamine
+        - involved in voluntary muscle movement initiation. Histamine H1 receptor
+        Antagonist. Crosses BBB more CNS>peripheral activity.
+      Therapeutic Use: adjuvant treatment for all forms of Parkinsonism, extrapyramidal
+        disorders due to neuroleptic drugs
+      Adverse Effects: 'Skin flushing, increased tempearture, dry mouth, cycloplegia
+        (paralysis of accomodation reflex due to inhibition of ciliary contraction),
+        disorientation/hallucinations esp in elderly(can cross BBB), mydriasis. '
+      Misc.: decreases the side effects of other anti psychotic drugs
+    Chlorpromazine:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Chlorpromazine
+      Class: Typical Antipsychotic (low potency)
+      Mechanism: Dopamine (D2) receptor antagonist. Also has significant anticholinergic
+        and alpha adrenergic blocking effects.
+      Therapeutic Use: Schizophrenia, specifically delusions and hallucinations
+      Adverse Effects: 'Main ones: orthostasis and sedation. Also low risk of extrapyramidal
+        reaction (dystonia, akathisisa, parkinsonism). Weight gain, anticholinergic
+        effects, QT prolongation, neuroendocrine effects, use caution in seizure patients
+        (lowers seizure threshold)'
+      Misc.: |-
+        Used w/ benztropine reduces absorption;
+         *Some pts that are sensitive to extrapyramidal effects may develop neuroleptic malignant syndrome(muscle ridigity, AMS, altered thermoregulation, and autonomic instability)
+    Diclofenac:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Diclofenac
+      Class: NSAID
+      Mechanism: Decreases formation of prostaglandins by inhibiting COX 1 and COX
+        2; may have anti-inflammatory effects by inhibiting chemotaxis, inhibiting
+        neutrophil aggregation/activation, and decreasing proinflammatory cytokine
+        levels
+      Therapeutic Use: Actinic keratoses, osteoarthritis, acute pain
+      Adverse Effects: Dry skin; rash; contact dermatitis; paresthesia
+    Docusate:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Docusate
+      Class: Stool Softener
+      Mechanism: Surfactant laxative, reduces tension of oil-water interface of the
+        stool; enhances incorporation of water and fat into stool, causing stool to
+        soften
+      Therapeutic Use: constipation
+      Adverse Effects: Abdominal cramping, diarrhea, throat irritation
+    Dopamine:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Dopamine
+      Class: Inotropic agent
+      Mechanism: Endogenous catecholamine, acts on both dopaminergic and adrenergic
+        neurons; Low dose stimulates mainly dopaminergic receptors --> renal and mesenteric
+        vasodilation; higher dose stimulates both beta1-adrenergic and dopaminergic
+        receptors, --> cardiac stimulation and renal vasodilation; large dose stimulates
+        alpha-adrenergic receptors
+      Therapeutic Use: Hemodynamic conditions like hypotension, low cardiac output,
+        poor perfusion of vital organs
+      Adverse Effects: Ventricular arrhythmia, A-fib at high doses, dyspnea, nausea/vomiting,
+        headache, anxiety
+    Dobutamine:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Dobutamine
+      Class: Inotropic Agent
+      Mechanism: Strong beta1 and weak beta2/alpha effects --> increased cardiac output,
+        blood pressure, and heart rate, decreased peripheral vascular resistance
+      Therapeutic Use: Low cardiac output
+      Adverse Effects: Tachyarrhythmia, hypertension, angina, headache
+    Enoxapirin (LMWH):
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Enoxapirin (LMWH)
+      Class: Antithrombotic
+      Mechanism: increases inhibition rate of clotting proteases activated by antithrombin
+        III, therefore inhibits factor Xa --> less clotting
+      Therapeutic Use: Deep Vein Thrombosis treatment/prophylaxis
+      Adverse Effects: hemorrhage, elevated serum aminotransferases (liver enzymes)
+      Misc.: cleared by the kidneys and affected by renal clearance - so pt was switched
+        from this to Heparin when she developed oligura
+    Ergocalciferol:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Ergocalciferol
+      Class: Vitamin D2
+      Mechanism: Acts as endogenous hormone in the body --> stimulates calcium and
+        phosphate absorption from small intestine; stimulates phosphate reabsorption
+        at renal tubule; stimulates secretion of calcium into blood from bone. Is
+        initially activated by enzymes in the liver and transformed into 1,25 dihydroxy
+        D2 by 1-alpha hydroxylase in the kidneys
+      Therapeutic Use: nutritional supplementation; hypoparathyroidism, rickets, hypophosphatemia
+      Adverse Effects: headache, constipation, hypercalcemia, fatigue, kidney stones
+    Fentanyl:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Fentanyl
+      Class: Opoid Analgesic
+      Mechanism: "Binds many opioid receptors in the \n CNS --> hyperpolarization
+        and decreased activity of neural cells; increases pain threshold, inhibits
+        ascending pain pathways, alters pain reception"
+      Therapeutic Use: Pain Control; General anesthesia (adjunctive)
+      Adverse Effects: |-
+        Respiratory depression, constipation;
+         Addiction, tolerance, dependance, MIosis and serotonin syndrome (rare)
+    Haloperidol:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Haloperidol
+      Class: Typical Antipsychotic (high potency)
+      Mechanism: Dopamine (D1 and D2) receptor antagonist, 5-HT2 antagonist at high
+        dose. D2 >>> 5-HT2
+      Therapeutic Use: Schizophrenia, bipolar disorder, huntington's disease, tourrette's
+        syndrome, and migraines
+      Adverse Effects: 'Main ones: extrapyramidal symptoms, hyperprolactinemia. Also
+        weight gain, QT prolongation, restlessness, and Neuroleptic Malignant Syndrome
+        (life threatening condition of encephalopathy and fever), lowers seizure threshold'
+      Misc.: Considered a major tranquilizer. Blocks Na+ channels, important to not
+        administer with other QT prolongation medications for fear of dysrhythmia.
+        Use caution in patients with seizures, lowers the threshold for seizures and
+        threfore will occur more frequently.
+    Heparin:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Heparin
+      Class: Anti-coagulant
+      Mechanism: 'low doses: inactivates factor Xa, inhibits conversion of prothrombin
+        --> thrombin. high doses: inactivates factors IX, X, XI, and XII, and thrombin.
+        inhibits conversion of fibrinogen --> fibrin. '
+      Therapeutic Use: DVT, PE, acute coronary syndromes, STEMI
+      Adverse Effects: 'heparin induced thrombocytopenia ("HIT"): thrombocytopenia,
+        especially within 5-10 days of starting the drug --> suspect HIT, discontinue
+        drug (if thrombocytopenia occurs within 1-2 days, then heparin associated
+        thrombocytopneia or HAT, can still use heparin). '
+      Misc.: Monitor aPPT labs when used long-term
+    'Hydroxyzine ':
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: 'Hydroxyzine '
+      Class: 1st generation antihistamine
+      Mechanism: Blocks H1 receptors (which normally contract smooth muscle, cause
+        pruritus, and increase capillary permeability) --> bronchodilation, decreased
+        pruritus and rash formation, decreased peripheral vascular resistance. Also
+        have antimuscarinic, anti-alph adrenergic, and anti-serotonergic properties.
+      Therapeutic Use: anxiety/agitation, pruritis, emesis, allergic skin reactions
+      Adverse Effects: drowsines, fatigue, dizziness
+      Misc.: avoid use in patients taking sedatives becuase effects can be potentiated
+        when used with sedatives
+    Lamotrigine:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Lamotrigine
+      Class: Anticonvulsant; antiepileptic
+      Mechanism: blocks voltage sensitive Na+ channels, stabilizing neuronal membranes;
+        inhibits release of excitatory amino acid glutamate
+      Therapeutic Use: Seizure treatment (partial seizures, generalized tonic clonic
+        seizures) and bipolar disorder type I
+      Adverse Effects: "**Stevens Johnson Syndrome (life threatening skin and mucus
+        membrane hypersensitivity reaction), must be titrated slowly"
+    Levetiracetam:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Levetiracetam
+      Class: Anticonvulsant; antiepileptic
+      Mechanism: unknown - binds to synaptic vesicle 2A protein in the brain; may
+        inhibit Ca, K, and GABA currents.
+      Therapeutic Use: Myoclonis seizures, partial onset seizures, primary generalized
+        tonic clonic seizures
+      Adverse Effects: sedation, fatigue, coordination difficulties, cough, anoreixa,
+        diarrhea, behavioral disorders (its a very clean med, usually just sedation)
+      Misc.: metabolism is independent of cytochrome P450, therefore there is decreased
+        potential for pharmacokinetic interaction with other antiepileptic drugs
+    Levothyroxine:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Levothyroxine
+      Class: Synthetic T4
+      Mechanism: Increases basal metabolic rate, increases utilization and mobilization
+        of glycogen stores, and promotes gluconeogenesis; involved in growth development
+        and stimulates protein synthesis
+      Therapeutic Use: Hypothyroidism
+      Adverse Effects: Congestive heart failure, palpitations, myasthenia, hyperthyroidism
+    Lithium carbonate:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Lithium carbonate
+      Class: mood stabilizer
+      Mechanism: "Unknown mechanism, but alters sodium transport and inhibits glycogen
+        synthase kinase-3 (GSK-3). It is believed to be related to the use of IP3
+        and DAG. \n\n-Inhibits postsynaptic D2 receptor supersensitivity\n-Alters
+        cation transport in nerve/muscle cells, influences reuptake of serotonin/norepi\n-Inhibits
+        phosphatidylinositol cycle second messenger systems"
+      Therapeutic Use: Bipolar Disorder
+      Adverse Effects: Nephrogenic diabetes insipidus, hypothyroidism, fine tremor,
+        heart block 1st degree, weight gain, edema (sodium retention), teratogenic
+      Misc.: Almost exclusively excreted by the kidney, can lead to nephrogenic diabetes
+        insipidous - have kidney function checked regularly. Contraindicated in pregnancy-Ebstein's
+        Anonmly, cardiac abnormality. Get regular thyroid fxn tests - causes thyroid
+        suppression. Has a narrow therapeutic/toxic ratio - get regular plasma monitoring.
+    Lorazepam:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Lorazepam
+      Class: Anticonvulsant, Antianxiety, Benzodiazepine
+      Mechanism: Benzos allosterically bind to the GABA(A) receptor (different from
+        the binding site of GABA) and increasing the receptors affinity for GABA -->
+        supresses all levels of CNS. Benzos increase the frequency of Cl- channel
+        opening, while Barbs increase the duration of Cl- channel opening. Lorazepam
+        is a intermediate acting Benzo with a half-life 5-24hr.
+      Therapeutic Use: Anxiety disorders, insomnia, seizures, status epilepticus
+      Adverse Effects: Depression, suicidal ideation, vertigo, convulsions, seizures,
+        respiratory depression
+      Misc.: sedative hypnotic with short onset of effects and relatively long half-life
+    Medroxyprogesterone (Provera):
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Medroxyprogesterone (Provera)
+      Class: Hormone; Progestin; Anti-neoplastic
+      Mechanism: progesterone, androgen, and glucocorticoid receptor agonist, binds
+        to intranuclear receptors that alter the transcription of target genes. -->
+        inhibits secretion of gonadotropins from pituitary gland, prevents follicular
+        maturation and ovulation, and stimulates growth of mammary tissues
+      Therapeutic Use: amenorrhea, contraception, endometriosis
+      Adverse Effects: Change in menstrual flow; edema, anorexia, fatigue
+      Misc.: 'can be used as a "progestin challenge" in the case of secondary amenorrhea
+        of unknown etiology - attempts to induce withdrawal bleeding after a dose. '
+    Naproxen:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Naproxen
+      Class: NSAID
+      Mechanism: Inhibits COX-1 and COX-2 --> inhibits synthesis of prostaglandins;
+        May inhibit chemotaxis, alter lymphocyte activity, decrease proinflammatory
+        cytokine activity, and inhibit neutrophil aggregation
+      Therapeutic Use: Mild to moderate pain, RA, OA, tendonitis, bursitis, acute
+        gout, migraine, amenorrhea
+      Adverse Effects: Constipation, dizziness, headache, nausea, GI bleeding
+      Misc.: less likely than other NSAIDs to have adverse effects of MI, stroke,
+        GI irritation and inflammation. Preferred medication to be used in pt's with
+        high risk of such complications
+    Nitrofurantoin (Macrobid):
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Nitrofurantoin (Macrobid)
+      Class: Micellaneous antibiotic
+      Mechanism: reduced to intermediates that inactivate/alter bacterial ribosomal
+        proteins --> inhibition of DNA, RNA, protein, and cell wall synthesis
+      Therapeutic Use: UTI prophylaxis or treatment
+      Adverse Effects: Anorexia, arthraliga, cough, diarrhea, nausea
+      Misc.: contraindicated in patients with anuria, oliguria, or significant renal
+        fxn impairment
+    'Pantoprazol ':
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: 'Pantoprazol '
+      Class: PPI
+      Mechanism: irreversibly inhibits parietal cell H/K ATPase --> suppresses gastric
+        acid secretion
+      Therapeutic Use: short-term use for ulcers, GERD
+      Adverse Effects: abdominal pain, diarrhea, nausea, constipation, headache
+    Propofol:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Propofol
+      Class: General Anesthetic
+      Mechanism: Short-acting, lipophilic sedative/hypnotic; causes global CNS depression,
+        presumably through agonist actions on GABA-A receptors
+      Therapeutic Use: Induction & maintenance of anesthesia; Post-op N/V
+      Adverse Effects: Hypotension; CV depression; Chemical pancreatitis
+      Misc.: Agent of choice for rapid sedation and rapid onset and short duration
+        anesthesia. Adminstered IV and is rapidly metabolized inthe liver
+    Promethazine:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Promethazine
+      Class: anti-histamine, anti-emetic
+      Mechanism: Phenothiazine derivative; Blocks Histamine (H1) and mesolimbic dopamine
+        (D2) receptors
+      Therapeutic Use: Allergic reaction, nausea, vomiting, motion sickness, pre/postop
+        sedation
+      Adverse Effects: "Common side effects: hypotension, sedation, dry mouth. Others
+        include Tachycardia, Leukopenia,\n  hallucinations.  "
+    Risperidone:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Risperidone
+      Class: Atypical Antipsychotic
+      Mechanism: Treats both positive and negative symptoms of schizophrenia; Antagonist
+        to dopaminergic (D2, some D1) and serotonergic (5-HT2) receptors in the CNS.
+        (5-HT2>>D2). also blocks Histamine H1, and Alpha 1,2 adrenergic receptors
+      Therapeutic Use: Bipolar Mania, Schizophrenia, and irritability associated with
+        autistic disorder, parkinsons, and alzheimer's
+      Adverse Effects: 'Main: Hyperprolactinemia. Others are extrapyramidal symptoms,
+        restlessness, agitation, and metabolic syndrome'
+      Misc.: Prefered over typical antipsychotics because it is less likely to cause
+        extrapyramidal motor control issues. Intramuscular long acting (Depot) form,
+        this is a long acting dosing that does not require frequent oral administration.
+        Lasts 2 weeks from IM injection.
+    Ropinirole:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Ropinirole
+      Class: antiparkinson agent; dopamine agonist
+      Mechanism: Dopamine agonist (non-ergoline) of mainly D2 receptor - some D3/D4
+      Therapeutic Use: |-
+        Parkinson's;
+         Restless Leg Sydrome
+      Adverse Effects: |-
+        N/V, postural hypotension, anorexia,
+         dyskinesias, mental disturbances
+      Misc.: May induce first dose Hypotension.
+    Sertraline:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Sertraline
+      Class: SSRI
+      Mechanism: Inhibits reuptake of serotonin by monoamine transporters on presynaptic
+        cells at 5HTA1 receptors--> serotonin stays in synaptic gap longer --> may
+        repeatedly stimulate the receptors of the post synaptic cell.
+      Therapeutic Use: Depression, anxiety, PTSD, OCD, and panic disorders
+      Adverse Effects: Sexual dysfunction, serotonine syndrome (fever, szr, ALOC -
+        treated with cyproheptadine, a 5-HT2 receptor antagonist), tremor
+      Misc.: " typically requires 4-8 weeks of compliance before they are effective.
+        Inhibits P450 Cytochrome, CYP2C19"
+    Vasopressin:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Vasopressin
+      Class: Antidiuretic, GI agent
+      Mechanism: ADH analog. Vasoconstrictor without inotropic or chronotopic effects;
+        stimulates smooth muscle in GI tract to cause peristalsis
+      Therapeutic Use: Diabetes insipidus, abdominal distention, vasodilatory shock
+      Adverse Effects: Abdominal cramping, diarrhea, throat irritation
+    Vitamin B12 (Coblamine):
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Vitamin B12 (Coblamine)
+      Class: Vitamin
+      Mechanism: coenzyme for various metabolic fxns - fat and carbohydrate metabolism,
+        protein synthesis, and used in cell replication and hematopoiesis
+      Therapeutic Use: pernicious anemia, vitamin B12 deficiency due to dietary insufficiencies/malabsorption/increased
+        requirements of B12
+      Adverse Effects: n/a
+    Vitamin B3 (Niacin/Nicotinic Acid):
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Vitamin B3 (Niacin/Nicotinic Acid)
+      Class: Vitamin
+      Mechanism: Decreases Triglycerides, LDL, and increases HDL. Inteferes with the
+        production of VLDL in the liver
+      Therapeutic Use: Dyslipidemia, pellagra, diarrhea, dermatitis, dementia
+      Adverse Effects: Flushing, GI distress, hepatotoxicity
+    Vitamin B6 (Pyridoxine):
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Vitamin B6 (Pyridoxine)
+      Class: Vitamin
+      Mechanism: precursor to pyridoxal --> pyridoxal functions in the metabolism
+        of proteins, carbohydrates, and fats. Aids in release of liver and muscle-stored
+        glycogen, and synthesis of GABA.
+      Therapeutic Use: treatment/prevention of vitamin B6 deficiency
+      Adverse Effects: toxicity (excess) can result in neuropathy, similar to presentation
+        of a deficiency in the vitamin
+    Zolpidem (Ambien):
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Zolpidem (Ambien)
+      Class: Hypnotic/sedative
+      Mechanism: benzodiazepine like drug; binds to benzodiazepine-1 receptor site
+        of GABA(A) receptor chloride channel --> increases GABA-A acivity. Has rapid
+        onset of action that lasts 1 hour (fastest in class). Undergoes hepatic metabolsim
+        and half-life may be affected by CYP450 inhibitors or potenitators.
+      Therapeutic Use: Insomnia
+      Adverse Effects: Daytime Drowsiness, bizarre sleep behaviors, sleep driving,
+        angioedema
+      Misc.: works to lengthen sleep time and minimize awakenings. Unlike other benzodiazepines
+        it has no antianxiety, muscle relaxing, or anticonvulsant properties. Consider
+        short term administrations and to take immediately before bedtime because
+        it works rapidly.
+    Gentamicin:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Gentamicin
+      Class: Aminoglycosides
+      Mechanism: Irreversibly binds to 30S ribosomal subunit in bacteria --> inhibits
+        formation of initation complex --> Bactericidal. Requires oxygen so ineffective
+        vs anaerobes
+      Therapeutic Use: aerobic gram neg. rod infections including Pseudomonas and
+        Enterobacter. Septicemia, complicated intrabdominal infections, UTIs, and
+        nosocomial URIs.
+      Adverse Effects: Nephrotoxicity when used with cephalosporins, Ototoxcitiy when
+        used with loop diuretics. Also a teratogen.
+      Misc.: 'Not given orally, due to poor absorption from the small intestine. Very
+        heat stable and is used to coat surfical implants and tools. Resistance via
+        3 types of transferase enzymes (found on plasmids and transposons): 1. Acetylation,
+        2. Phosphorylation, 3. Adenylation                          Syncergistic with
+        B lactam antibiotics in streptococcal infections. Commonly used with Ampicillin.'
+    Meropenem:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Meropenem
+      Class: |-
+        Carbapenems;
+         β-lactam antibiotic
+      Mechanism: 'Inhibits cell-wall synthesis by binding to penicillin-binding proteins;
+        resistant to most beta-lactamases. Broad spectrum antibiotic. Passes the BBB
+        and can cause CNS toxicity. '
+      Therapeutic Use: Febrile neutropenia, complicated skin infection, complicated
+        intra-abdominal infection, community aquired pnemonia
+      Adverse Effects: nephrotoxicity, CNS toxicity *the only gram - coverage abx
+        that crosses the BBB*
+      Misc.: Demonstrate no cross-resistance with other antibiotics
+    IVIG:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: IVIG
+      Class: Immune globulins
+      Mechanism: Pooled human immune globulins from donors; may interfere with Fc
+        receptors on the cells of the reticuloendothelial system for autoimmune disorders
+        including cytopenias and ITP; may offer passive immunity by increasing antibody
+        titer and antigen-antibody reaction potential. Mainly IgG, but also IgA and
+        IgM
+      Therapeutic Use: replacement therapy for primary and secondary immunodeficiencies;
+        Bone marrow transplant; GBS
+      Adverse Effects: Chills, headache, generalized pain, aseptic meningitis; pruritus
+    Vancomycin:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Vancomycin
+      Class: Glycopeptide antibiotic
+      Mechanism: binds to D-ala-D-ala portion of cell wall peptidoglycan to prevent
+        further elongation and crosslinking due to inhibition of translfycosylase-->
+        inhibits cell wall biosynthesis
+      Therapeutic Use: 'Gram + bacteria; should be used when other abx fail (specific
+        infections: C. difficile, MRSA, Endocarditis, preoperative/ surgical antimicrobial
+        prophylaxis)'
+      Adverse Effects: Flushing of skin (red man syndrome), thrombophlebitis, ototoxicity,
+        nephrotoxicity can be prevented with antihistamine and slow infusion
+    Norepinephrine:
+      Block:
+      - '3'
+      Case:
+      - C1
+      Drug: Norepinephrine
+      Class: Alpha/Beta Adrenergic Agonist
+      Mechanism: Strong beta1- and alpha-adrenergic effects and moderate beta2 effects,
+        which increase cardiac output and heart rate, decrease renal perfusion and
+        PVR, and cause variable BP effects
+      Therapeutic Use: Acute hypotension, cardiac arrest, sepsis & septic shock
+      Adverse Effects: Hypertension, arrhythmia, confusion, anxiety, headache
+      Misc.: Poorly absorbed from the GI tract and do not enter the CNS to any appreciable
+        extent. Mostly administered IV. Terminated primarily by simple diffusion away
+        from the receptor site and by active uptake into sympathetic nerve terminals.
+    Marijuanna:
+      Block:
+      - '3'
+      Case:
+      - C2
+      Drug: Marijuanna
+      Class: Cannabinoid
+      Mechanism: 'Activates CB1 receptors (located in brain, hypothalamus, adipose
+        tissue, skeletal muscle, and liver) --> 4 psychological effects: affective
+        (euphoria and easy laughter), sensory (increased perception of external stimuli),
+        somatic (feeling of the body floating or sinking), and cognitive (distortion
+        of time perception). Other effects include analgesia, appetitie enhancement,
+        muscle relaxation, hormonal actions'
+      Therapeutic Use: Multiple sclerosis, Parkinson's disease, glaucoma, food intake,
+        and rheumatoid arthritis
+      Adverse Effects: Big side effects that are extrapolated and used therapeutically
+        are anti nausea, appetite stimulation and analgesia.
+      Misc.: Marinol or Dronabinol is derivative of Marijauna (control 3 medication)
+        and is used in cancer and AIDs patients for anti nausea and appetite stimulation.
+        Use for pain not approved yet
+    Vitamin B1 (Thiamine):
+      Block:
+      - '3'
+      Case:
+      - C2
+      Drug: Vitamin B1 (Thiamine)
+      Class: vitamin
+      Mechanism: essential coenzyme in carbohydrate metabolism - combines with ATP
+        to form TPP. Cofactor for the conversion of Pyruvate to Acetyl CoA via Pyruvate
+        dehydrogenase
+      Therapeutic Use: Thiamine deficiency conditions such as BeriBeri, Wernicke's
+        encephalopathy, Korsakoff's syndrome, neuritis, and alcoholism
+      Adverse Effects: hypersensitivity reactions, cardiovascular effects, CNS effects
+      Misc.: Give any time the patient has unexplained weight loss (Wernicke's encephalopathy).
+        This is essential for glucose metabolism so must give with glucose if suspecting
+        a deficiency.
+    Acyclovir:
+      Block:
+      - '3'
+      Case:
+      - C2
+      Drug: Acyclovir
+      Class: Antiviral agent
+      Mechanism: active form competes with dGTP for viral DNA polymerase --> incorporated
+        into viral DNA --> inhibits DNA synthesis and viral replication
+      Therapeutic Use: HSV encephalitis or genital HSV, Herpes zoster (shingles),
+        Varicella
+      Adverse Effects: crystal-induced nephropathy - a form of acute kidney injury
+        - with use of this drug in the first 24-48 hours especially, GI Distress,
+        headache, Nephrotoxicity, and CNS toxicity (tremors, hallucinations, and delirium.
+        Occurs if unable to be excreted through urine)
+      Misc.: used in this patient for suspected HSV encephalitis
+    Hypertonic saline:
+      Block:
+      - '3'
+      Case:
+      - C2
+      Drug: Hypertonic saline
+      Class: parenteral electrolyte supplement
+      Mechanism: creation of an osmotic gradient --> causes a shift of fluid from
+        intracellular to extracellular space --> decreases fluid in the brain -->
+        increases blood volume and plasma sodium
+      Therapeutic Use: hyponatremia and hypochloremia states, treatment of cerebral
+        edema, increased intracranial pressure
+      Adverse Effects: central pontine myelinolysis (myelin sheath destruction) when
+        hyponatremia is rapidly corrected. Can also cause hypernatremia, and dilution
+        of serum electrolytes --> hypokalemia
+      Misc.: may be recommended for use over mannitol in the case of increased intracranial
+        pressure, especially in patients with renal failure, and appears to have less
+        "rebound" effect of increased inctracranial pressure than mannitol
+    Methylprednisolone:
+      Block:
+      - '3'
+      Case:
+      - C2
+      Drug: Methylprednisolone
+      Class: systemic corticosteroid
+      Mechanism: binds to intracellular receptors --> translocates into the nucleus
+        --> regulates gene expression --> suppression of PMN lymphocyte migration
+        and decreased capillary permeability --> controls inflammation and prevents
+        futher increase in inflammation (doesn't exactly decrease existing inflammation)
+      Therapeutic Use: anti-inflammatory, immunosuppressant
+      Adverse Effects: main side effects with acute use are sleep disturbance, metallic
+        taste, GI upset. Chronic use side effects include weight gain (fat deposition
+        - moon face), adrenal insufficiency and cushing's-like symptoms, osteoporosis,
+        muscle wasting, hyperglycemia (DM) HTN, HLD, acne, infections, mood alteration
+      Misc.: can be used for increased intracranial pressure when inflammation is
+        the suspected etiology. Can cause "rebound" effect of increased intracranial
+        pressure after use
+    Rituximab:
+      Block:
+      - '3'
+      Case:
+      - C2
+      Drug: Rituximab
+      Class: antineoplastic agent; monoclonal antibody; immunosuppressant
+      Mechanism: Binds to CD20 antigen on B-lymphocytes (CD20 normally regulates cell
+        cycle initiation) --> complement-dependent B-cell cytotoxicity (kills the
+        B cells).
+      Therapeutic Use: immunosuppressant - usually for non-Hodgkin lymphoma, CLL,
+        and Rheumatoid arthritis
+      Adverse Effects: 'Reactivation of Hepatitis B. Hypersensitivity and infusion-related
+        reaction (like rash, fever, chills, nausea, or anaphylaxis cardiovascular
+        collapse) '
+    Fomepizole:
+      Block:
+      - '3'
+      Case:
+      - C2
+      Drug: Fomepizole
+      Class: Antidote
+      Mechanism: Competitive inhibitor of alcohol dehydrogenase --> blocks conversion
+        of ethanol, methanol, and ethylene glycol into their toxic intermediates
+      Therapeutic Use: Ethylene glycol and methanol toxicity
+      Misc.: Costs $4000
+    Ketamine:
+      Block:
+      - '3'
+      Case:
+      - C3
+      Drug: Ketamine
+      Class: General Anesthetic; dissociative anesthetic
+      Mechanism: non-competitively blocks NMDA receptors and opposes glutamate activity
+        --> raises threshold for firing CNS neurons. Also a potent cardiovascular
+        stimulant, and is useful for patients in cardiogenic or septic shock.
+      Therapeutic Use: general anesthesia; used in our case because part of Milwaukee
+        protocol - may have antiviral properties vs Rabies virus
+      Adverse Effects: Has the least cardiovascular depressant effects, may increase
+        intracranial pressure
+      Misc.: Produces dissociative anesthesia, a effect in which patients feel dissociated
+        from their surroundings (twilight anesthesia)
+    'Midazolam ':
+      Block:
+      - '3'
+      Case:
+      - C3
+      Drug: 'Midazolam '
+      Class: benzodiazepine
+      Mechanism: Benzos allosterically bind to the GABA(A) receptor (different from
+        the binding site of GABA) and increasing the receptors affinity for GABA -->
+        supresses all levels of CNS. Benzos increase the frequency of Cl- channel
+        opening, while Barbs increase the duration of Cl- channel opening. Midazolam
+        is a short acting Benzo with a half-life <5hr.
+      Therapeutic Use: anesthesia; used in this case as adjunct anesthetic in Milwaukee
+        protocol to prevent burst suppression and excitatory effects of Ketamine
+      Adverse Effects: respiratory depression; dess of a depressant than barbituates.
+        Decreased REM Sleep, CNS Depression, Dependence. Most common cause of reversible
+        confusion and amnesia in the elderly
+      Misc.: If overdose give flumazenil.  Midazolam is highly lipid soluble compared
+        to other benzos and crosses the BBB with ease.
+    Nimodipine:
+      Block:
+      - '3'
+      Case:
+      - C3
+      Drug: Nimodipine
+      Class: Dihydropyridine calcium channel blocker
+      Mechanism: blocks Ca channels, inhibiting Ca influx in vascular smooth muscle
+        --> relaxation of smooth muscle in vessel walls. The most lipophillic that
+        crosses the BBB.
+      Therapeutic Use: subarachnoid hemorrhage; used in this case to prevent cerebral
+        artery vasospasm
+      Adverse Effects: headache, edema, tachycardia, CHF, AV block, SA node depression,
+        constipation (Ca2+ is a 2nd messenger for Gastrin)
+      Misc.: greater effect on cerebral arteries than other dihydropyridines because
+        more lipophilic than the others, so goes to the brain more
+    Amantadine:
+      Block:
+      - '3'
+      Case:
+      - C3
+      Drug: Amantadine
+      Class: Antiviral agent
+      Mechanism: blocks viral peptide particle uncoating and entry into host cells
+        --> decreases virus replication; also non-competitvely antagonizes NMDA receptors.
+        Increases dopamine release and inhibits reuptake.
+      Therapeutic Use: Drug-induced extrapyramidal reactions, influenza A prophylaxis/treatment,
+        Alzheimer Disease, Parkinson disease; Used in this case as part of Milwaukee
+        protocol
+      Adverse Effects: restlessness, agitation, confusion, hallucinations, acute toxic
+        psychosis, characteristic dermatology finding called livedo reticularis
+      Misc.: shows antiviral properties against Rabies virus in vitro, but not proven
+        to work as tx for Rabies infection in vivo
+    Pramiprexole:
+      Block:
+      - '3'
+      Case:
+      - C8
+      Drug: Pramiprexole
+      Class: See case 3
+      Mechanism: See case 3
+    Atropine:
+      Block:
+      - '3'
+      Case:
+      - C3
+      Drug: Atropine
+      Class: Anticholinergic agent
+      Mechanism: A competitive muscarnic. It blocks action of ACh at parasympathetic
+        smooth muscle, secretory glands, and CNS --> increases CO, dries sections
+      Therapeutic Use: Bradycardia; AV block; antidote for AChE poisoning; neuromuscular
+        blockade reversal; pre-op to inhibit salivation/secretions
+      Adverse Effects: urinary retention, hyperthermia; psychosis with excessive doses,
+        dry mouth, disorientation, clycloplegia, skin flushing, mydriasis
+      Misc.: "**this has no effect on nicotinic receptors responsible for muscle weakness/fasciculations/paralysis**"
+    Prednisone:
+      Block:
+      - '3'
+      Case:
+      - C4
+      Drug: Prednisone
+      Class: Corticosteroid
+      Mechanism: controls rate of protein synthesis, suppresses migration of PMNs,
+        reverses capillary permeability, stabilizes lysosomes --> controls inflammation.
+        Also modulates carb, protein, and lipid metbaolism.
+      Therapeutic Use: Inflamation and autoimmune disease, adrenocortical insufficiency,
+        arthritis, blood disorders
+      Adverse Effects: DM, Glucose intolerance (hyperglycemia), fat deposition (moon
+        face), muscle wasting, Adrenal insufficiency, cushing's-like symptoms, osteoprosis,
+        grow retardation (in children), immunodeficiency, facial hair growth; Mineral
+        corticoid effects = HTN and extracellular fluid expansion
+      Misc.: " 3-5x glucocorticoid acitivty, minor mineral corticoid activity."
+    Metoprolol:
+      Block:
+      - '3'
+      Case:
+      - C6
+      Drug: Metoprolol
+      Class: Selective Beta 1 Blockers
+      Mechanism: Blocks B1 adrenergic receptors. Bind to Gs proteins and inhibit the
+        formation of cAMP from ATP -->  prevents intracellular calcium --> decreased
+        calcium currents by sarcoplasmic reticulum of the heart -->  decreased heart
+        contracility and decreased peripheral vascular resistance. Also decreases
+        SA and AV node conduction velocity (dromotropy). Decreases renin secretion
+        --> lowers extracellular volume and increases the oxygen carrying capacity
+        of blood --> reduced heart oxygen demand.
+      Therapeutic Use: Rate control, hypertension, angina, MI, CHF, migraine prophylaxis,
+        and anxiety
+      Adverse Effects: Should not be used in patients with asthma or heart blocks
+      Misc.: It crosses the blood brain barrier, it can be used for migraine prophylaxis.
+        Do not stop Beta blockers abruptly, can mask signs of hypoglycemia, assess
+        blood pressure and heart rate. This is in IV form versus Atenolol which is
+        PO.
+    Diphenhydramine:
+      Block:
+      - '3'
+      Case:
+      - C4
+      Drug: Diphenhydramine
+      Class: H1 receptor antagonist; 1st generation
+      Mechanism: Blocks H1 receptors (which normally contract smooth muscle, cause
+        pruritus, and increase capillary permeability) --> bronchodilation, decreased
+        pruritus and rash formation, decreased peripheral vascular resistance. Also
+        have antimuscarinic, anti-alph adrenergic, and anti-serotonergic properties.
+      Therapeutic Use: allergic rhinitis, uriticaria, allergic rxns, motion sickness,
+        sleep aid
+      Adverse Effects: also has some effects on cholinergic and alpha-adrenergic receptors
+        --> sedation, dry mouth, blurry vision, tremors
+      Misc.: 1st gen = exert CNS effects because they're not substrates for P-glycoprotein
+        efflux pump that would pump it back out of CNS (2nd gen are substrates for
+        this pump, so they are just pumped out of the CNS and dont have the sedative
+        effects)
+    Ondansetron:
+      Block:
+      - '3'
+      Case:
+      - C4
+      Drug: Ondansetron
+      Class: 5-HT3 receptor antagonist
+      Mechanism: blocks 5-HT3 receptors that are part of vomiting reflex pathway -->
+        inhibits vomiting reflex (anti-emetic)
+      Therapeutic Use: nausea, vomiting - usually associated with chemotherapy or
+        surgery
+      Adverse Effects: headache, constipation
+    Methotrexate:
+      Block:
+      - '3'
+      Case:
+      - C4
+      Drug: Methotrexate
+      Class: |-
+        Antineoplastics, Immunosupressant, Antimetabolite, DMARD, Immunomodulator,
+        Hyper-CVAD Optional
+      Mechanism: Inhibits dihydrofolate reductase --> no converstion of folic acid
+        to its active form tetrahydrofolate --> no precursor for purine and TMP synthesis
+        --> interferes with DNA synthesis, repair, and cellular replication; specifically
+        S phase of cell cycle.
+      Therapeutic Use: Rheumatoid arthritis, cancer, medical abortion
+      Adverse Effects: Myelosuppression, macrocytic anemia, hepato and nephrotoxicity,
+        teratogen, mucositis; leucovorin rescue = folinic acid (reduced form of folic
+        acid, acts just like it) *give with methotrexate to minimize myelosuppression
+        and decrease toxicity of the drug*
+      Misc.: May inhibit rapid proliferation of epithelial cells in skin. Cytarabine
+        may also be given for this purpose as part of CVAD.
+    Guaifenesin (part of mucinex):
+      Block:
+      - '3'
+      Case:
+      - C5
+      Drug: Guaifenesin (part of mucinex)
+      Class: expectorant
+      Mechanism: increases effective hydration of the respiratory tract --> maintains
+        ciliary clearance and reduces viscosity of respiratory mucus --> facilitates
+        mucous removal by natural clearance processes, aka "expectorant"
+      Therapeutic Use: cough - loosens phlegm to make coughs more productive
+      Adverse Effects: dizziness, drowsiness, headache
+      Misc.: considered as a possible cause of our patient's fatigue and muscle spasms/"twitching"
+    Cyclobenzaprine (Flexeril):
+      Block:
+      - '3'
+      Case:
+      - C5
+      Drug: Cyclobenzaprine (Flexeril)
+      Class: skeletal muscle relaxant
+      Mechanism: influences alpha and gamma motor neurons --> reduces tonic somatic
+        motor activity --> relaxes skeletal muscle
+      Therapeutic Use: short-term treatment of muscle spasm
+      Adverse Effects: dizziness, drowsiness, dry mouth
+      Misc.: pharmacologically related to tricyclic antidepressants
+    Riluzole:
+      Block:
+      - '3'
+      Case:
+      - C5
+      Drug: Riluzole
+      Class: Glutamate Antagonist
+      Mechanism: |
+        Mechanism is unknown - thought to block glutamate release, potentially also directly inhibit NMDA receptors. Also blocks TTX-sensitive sodium channels (found on damaged neurons).
+      Therapeutic Use: ALS
+      Adverse Effects: nausea, weakness, dizziness, decreased lung function
+    Dimercaprol:
+      Block:
+      - '3'
+      Case:
+      - C5
+      Drug: Dimercaprol
+      Class: Antidote Chelation Therapy
+      Mechanism: 'Sulfhydryl group combines with ions of various heavy metals to form
+        relatively stable, nontoxic, soluble chelates which are excreted in the urine '
+      Therapeutic Use: 'Antidote to gold, arsenic (except arsine) '
+      Adverse Effects: "Fever, tightness sensations - chest, limbs, jaw, and abdomen,
+        hypertension, tachycardia, n/v, headache, paresthesia, tremor, conjunctivitis,
+        lacrimation, nephrotoxicity. \n"
+      Misc.: Can cross the BBB - good for neurotoxicity/high blood levels
+    Pravasatin:
+      Block:
+      - '3'
+      Case:
+      - C6
+      Drug: Pravasatin
+      Class: Statin
+      Mechanism: HMG CoA reductase inhibitor. Decreases LDL and cholesterol levels.
+        Can also increase HDL and decrease triglycerides
+      Therapeutic Use: Dyslipidemia
+      Adverse Effects: Hepatotoxicity, rash, rhabdomyolysis, myopathy
+      Misc.: 'Monitor liver enzymes and administer at bedtime. does not go through
+        cyp 3A4 and only statin that does not so less drug interactions** '
+    Simvastatin:
+      Block:
+      - '3'
+      Case:
+      - C6
+      Drug: Simvastatin
+      Class: Statin
+      Mechanism: HMG CoA reductase inhibitor. Decreases LDL and cholesterol levels.
+        Can also increase HDL and decrease triglycerides
+      Therapeutic Use: Dyslipidemia
+      Adverse Effects: Hepatotoxicity, rash, rhabdomyolysis, myopathy
+      Misc.: Monitor liver enzymes, administer at bedtime, and avoid grapefruit
+    Metformin:
+      Block:
+      - '3'
+      Case:
+      - C6
+      Drug: Metformin
+      Class: "Antidiabetic Agent \n"
+      Mechanism: "Decreases hepatic glucose production and intestinal absorption of
+        glucose; improves insulin sensitivity --> increased peripheral glucose uptake
+        and utilization \n"
+      Therapeutic Use: 'DM - type 2 and Off-label: Polycystic Ovary Syndrome'
+      Adverse Effects: flatulence, dyspepsia, weakness, and abdominal distress, Lactic
+        acidosis in severe cases
+    Glyburide:
+      Block:
+      - '3'
+      Case:
+      - C6
+      Drug: Glyburide
+      Class: |
+        Antidiabetic Agent --- Sulfonylurea
+      Mechanism: |
+        Blocks K+ channel on the pancreatic beta cell (allowing for increased Ca2+ entry via voltage gated calclium channels)--> stimulates insulin, reduces glucose output from the liver, and increases insulin sensitivity at peripheral tissues. Also decreases serum glucagon.
+      Therapeutic Use: 'DM-type 2 and off-label: Gestational DM '
+      Adverse Effects: " hypoglycemia, weight gain, do not use in low renal function**"
+      Misc.: Rapidly absorbed (vs other drugs in class)
+    Lisinopril:
+      Block:
+      - '3'
+      Case:
+      - C6
+      Drug: Lisinopril
+      Class: ACE inhibitor
+      Mechanism: competitive inhibition of angiotensin-converting enzyme --> prevents
+        conversion of angiotensin I to angiotensin II (powerful vasoconstrictor) -->  decreased
+        vasoconstriction, increased renin activity, and decreased aldosterone secretion
+        --> decreased blood pressure
+      Therapeutic Use: Hypertension, acute MI, Heart failure
+      Adverse Effects: 'Very important side effects: hyperkalemia, cough, increase
+        in serum creatinine/BUN (expected increase) & angioedema (rare) less important:
+        Chest pain, hepatic failure, renal failure'
+    ASA:
+      Block:
+      - '3'
+      Case:
+      - C6
+      Drug: ASA
+      Class: Analgesic
+      Mechanism: Acts on hypothalamus to produce antipyresis; prostaglandin synthetase
+        inhibition --> decreased formation of thromboxane A2 --> anti-inflammatory.
+        IRREVERSIBLY covalently modifies COX1 and COX2. Does not bind.
+      Therapeutic Use: |-
+        Pain, fever, inflammation
+        Taken to prevent heart attacks, strokes and chest pain
+      Adverse Effects: "Tinnitus, dyspepsia, Reye's \n syndrome"
+      Misc.: Actions are dose-dependent
+    Trazadone:
+      Block:
+      - '3'
+      Case:
+      - C6
+      Drug: Trazadone
+      Class: Antidepressant - SSRI
+      Mechanism: Inhibits the reuptake of serotonin at 5HT1A receptors, causes adrenoceptor
+        subsensitivity, and induces significant changes in the 5-HT presynaptic receptor
+        adrenoceptors (alpha1 and alpha2). Also Block Histamine (H1).
+      Therapeutic Use: Insomnia (low dose), 3rd line for depression (high dose)
+      Adverse Effects: Serotonin syndrome; priapism, Sedation, Orthostatic hypotension
+        (due to blockage of alpha-1 adrenergic receptors)
+      Misc.: "Suicidality - antidepressants increase the risk of suicidal thinking
+        and behavior \n"
+    Omega-3 Polyunsaturated Fatty Acid:
+      Block:
+      - '3'
+      Case:
+      - C6
+      Drug: Omega-3 Polyunsaturated Fatty Acid
+      Class: Supplement
+      Mechanism: 'Mechanism unknown; may reduce hepatic synthesis of triglycerides.
+        drug of choice to reduce triglycerides, but can potenrial increase LDL in
+        patient. '
+      Therapeutic Use: dietary supplement for patients at early risk of CAD; severe
+        hypertriglyceridemia
+      Adverse Effects: increased ALT, increased bleeding times, fishy burps and belching
+      Misc.: contraindicated with fish and/or shellfish allergy
+    Venlafaxine:
+      Block:
+      - '3'
+      Case:
+      - C6
+      Drug: Venlafaxine
+      Class: 'Antidepressant - SNRI '
+      Mechanism: potent inhibitor of neuronal serotonin and norepinephrine reuptake.
+        Weak inhibitor of dopamine reuptake.
+      Therapeutic Use: Depression, diabetic peripheral neuropathy, panic and anxiety
+        disorders
+      Adverse Effects: |
+        Hypertension, Insomnia, Nausea, vomiting, decreased libido
+      Misc.: Suicidality - antidepressants increase the risk of suicidal thinking
+        and behavior. SSRI at low doses and Dual mechanism agent at higher doses.
+    Bupropion:
+      Block:
+      - '3'
+      Case:
+      - C6
+      Drug: Bupropion
+      Class: Antidepressant - Dopamine/Norepinephrine-Reuptake inhibitor
+      Mechanism: Inhibits neuronal reuptake of Dopamine and Norepinephrine. No effect
+        on Serotonin.
+      Therapeutic Use: 'Major depressive disorder, seasonal affective disorder, smoking
+        cessation, off label: ADD, ADHD, and promotion of weight loss '
+      Adverse Effects: Dose-dependent risk of seizure by lowering the seizure threshold,
+        no sexual side effects; doc if sexual dysfunction from SSRI's; since dopamine
+        is more excitatiory you will see insomnia, decreased appetite and dry mouth
+      Misc.: contraindicated in pt's with h/o seizure
+    Insulin Glargine:
+      Block:
+      - '3'
+      Case:
+      - C6
+      Drug: Insulin Glargine
+      Class: "Antidiabetic, \n Long-Acting"
+      Mechanism: stimulates peripheral glucose uptake by skeletal muscle and fat -->
+        lowers blood glucose; also inhibits hepatic glucose production, lipolysis
+        and proteolysis, and enhances protein synthesis; targets include skeletal
+        muscle, liver, and adipose tissue
+      Therapeutic Use: Type 1DM/ Type 2 DM
+      Adverse Effects: "Hypoglycemia, lipodystrophy, \n hypokalemia"
+    Insulin Lispro:
+      Block:
+      - '3'
+      Case:
+      - C6
+      Drug: Insulin Lispro
+      Class: Rapid Acting
+      Mechanism: See insulin glargine
+      Therapeutic Use: Type 1 DM
+      Adverse Effects: Hypoglycemia, hypokalemia, also weight gain and lipodystrophy
+        (fat gets deposited in weird spots)
+    Prazosin:
+      Block:
+      - '3'
+      Case:
+      - C6
+      Drug: Prazosin
+      Class: alpha-1 blocker; antihypertensive
+      Mechanism: competitively inhibits postsynaptic peripheral alpha-1 adrenergic
+        receptors --> vasodilation of veins and arterioles --> decreased TPR and BP.
+        Relaxation of muscules surrounding the bladder neck (trigone and sphincter)
+        and prostate capsule) allows urine to flow more easily in patients with BPH
+      Therapeutic Use: Hypertension, Benign Prostatic Hyperplasia (BPH), PTSD (off
+        label use for nightmares)
+      Adverse Effects: Orthostatic hypotension, tachycardia, impotence, inhibition
+        of ejaculation, nasal congestion
+      Misc.: 2014 guideline for management of high BP in adults does not recommend
+        use of this drug for HTN. Give his med at bedtime due to side effects
+    Percodan (Aspirin/Oxycodone):
+      Block:
+      - '3'
+      Case:
+      - C6
+      Drug: Percodan (Aspirin/Oxycodone)
+      Class: Analgesic Opoid (weak agonist)
+      Mechanism: "Oxycodone binds to opiate (mu and kappa) receptors within neuronal
+        membranes of synapses --> decreased synaptic chemical transmission throughout
+        CNS --> blocks pain perception in the cerebral cortex. Aspirin decreases activity
+        of COX --> decreased formation of prostaglandin precursors --> inhibits prostaglandin
+        synthesis. Also acts on the hypothalamic heat-regulating center to reduce
+        fever. Also blocks thromboxane synthase action --> prevents formation of platelet
+        -aggregating substance Thromboxane A2. \n"
+      Therapeutic Use: 'Management of moderate - to severe pain '
+      Adverse Effects: 'Circulatory depression, hypotension, shock, dizziness, drowsiness,
+        sedation, pruritus, constipation, n/v, apnea, and respiratory arrest/depression. '
+      Misc.: metabolism is independent of cytochrome P450, therefore there is decreased
+        potential for pharmacokinetic interaction with other antiepileptic drugs
+    Medroxyprogesterone:
+      Block:
+      - '3'
+      Case:
+      - C7
+      Drug: Medroxyprogesterone
+      Class: Hormone; Progestin; Anti-neoplastic
+      Mechanism: progesterone, androgen, and glucocorticoid receptor agonist --> inhibits
+        secretion of gonadotropins from pituitary gland, prevents follicular maturation
+        and ovulation, and stimulates growth of mammary tissues
+      Therapeutic Use: amenorrhea, contraception, endometriosis
+      Adverse Effects: Change in menstrual flow; edema, anorexia, fatigue
+      Misc.: 'can be used as a "progestin challenge" in the case of secondary amenorrhea
+        of unknown etiology - attempts to induce withdrawal bleeding after a dose. '
+    Pyridostigmine:
+      Block:
+      - '3'
+      Case:
+      - C7
+      Drug: Pyridostigmine
+      Class: Anticholinesterase
+      Mechanism: Reversibly binds to and competively inhibits acetylcholinesterase
+        --> increased ACh available at the NMJ to bind to AChRs. Does not cross BBB
+      Therapeutic Use: Myasthenia gravis; reversal of nondepolarizing muscle relaxants;
+        pre-nerve gas exposure prophylaxis
+      Adverse Effects: Cholinergic crisis (muscle weakness); excess cholinergic activity
+        sxs (salivation, sweating, urinary incontinence)
+      Misc.: 'Per LexiComp and our own pharmacist (Sarju), longer half-life than Neostigmine. '
+    Neostigmine:
+      Block:
+      - '3'
+      Case:
+      - C7
+      Drug: Neostigmine
+      Class: Anticholinesterase
+      Mechanism: Reversibly binds to andcompetively inhibits acetylcholinesterase
+        --> increased ACh available at the NMJ to bind to AChRs. Also a weak agonist
+        to nicotinic receptors (direct agonist). Does not cross BBB.
+      Therapeutic Use: Myasthenia gravis; post-op bladder distention/urinary retention;
+        reversal of nondepolarizing muscle relaxants
+      Adverse Effects: Cholinergic crisis (muscle weakness --> respiratory paralysis)
+        Bradycardia, hypotension
+      Misc.: Per LexiComp and our own pharmacist (Sarju), shorter half-life than Pyridostigmine.
+        (Shorter half-life typically equates to more severe effects than longer half-life)
+    Azathioprine:
+      Block:
+      - '3'
+      Case:
+      - C7
+      Drug: Azathioprine
+      Class: Immunosuppressant Agent
+      Mechanism: derivative of MP, metabolized to 6-MP; metabolites incorporated into
+        replicating DNA --> halt replication --> block purine synthesis pathway
+      Therapeutic Use: renal transplant (prevent rejection); Rheumatoid Arthritis
+      Adverse Effects: Azathioprine myelotoxicity (leukopenia, thrombocytopenia, anemia);
+        hepatotoxicity, malignancy
+      Misc.: Check TPMT levels before starting, lower levels = more likely myelosuppression
+    Carbidopa:
+      Block:
+      - '3'
+      Case:
+      - C8
+      Drug: Carbidopa
+      Class: Anti-Parkinson's agent; Decarboxylase inhibitor
+      Mechanism: Inhibits L-amino acid decarboxlyase in periphery (an enzyme that
+        converts Levodopa --> Dopamine). Dopamine in periphery has more side effects,
+        and cannot cross BBB like L-Dopa can. So this drug enables a lower dosage
+        of Levodopa to be used because more makes it to the BBB, a more rapid response,
+        and decreased side effects.
+      Therapeutic Use: Parkinsonism
+      Adverse Effects: Diarrhea, Nausea, Orthostatic hypotension, Hallucinations,
+        Dyskinesia, Hyperkinesia
+      Misc.: Carbidopa has zero effects without Levodopa, Given TOGETHER as Carbidopa-Levodopa.
+        Effect of L-dopa being converted to Dopamine in the periphery (without this
+        drug) = nausea/vomiting
+    Levodopa:
+      Block:
+      - '3'
+      Case:
+      - C8
+      Drug: Levodopa
+      Class: Anti-Parkinson's agent
+      Mechanism: Is an isomer of dopa that is decarboxylated in the CNS to dopamine
+        in the striatum. Activates D2 and D3 receptors to activate inhibitory G proteins,
+        inhibit adenylyl cyclase, decreased cAMP and open potassium channels
+      Therapeutic Use: Parkinsonism (dyskinesias)
+      Adverse Effects: Diarrhea, Nausea (dopaminergic effects on GI tract), Orthostatic
+        hypotension, Hallucinations, Dyskinesia (on-off phenomenon), Hyperkinesia
+      Misc.: Controlled release form started after development of motor fluctuations
+        associated with the medication; Basically always given together as Carbidopa-Levodopa.
+        Do not give with B6--> increases activity of dopa decarboxylase (increases
+        metabolism in periphery) --> decreased absorption
+    Amitriptyline:
+      Block:
+      - '3'
+      Case:
+      - C8
+      Drug: Amitriptyline
+      Class: Tricyclic antidepressant; SNRI
+      Mechanism: Inhibits serotonin and norepinephrine reuptake via their SERT and
+        NET transporters respectivley --> increases NE and serotonin concentration
+        in CNS. Also blocks alpha-1 and has antihistamine effects.
+      Therapeutic Use: 'Low dose: insomnia, migraine prophylaxis, fibromyalgia, and
+        other things, High dose: depression'
+      Adverse Effects: '3 C''s: Convulsion, Coma, Cardiotoxicity (arrhythmias). Anticholinergic
+        effects, CNS depression, Orthostatic hypotension, weight gain, sexual dysfunctin.  Black
+        box = suicidal ideation. Have additive anticholinergic effects with antiparkinsonian
+        drgus, antipsychotics. Potentiate the CNS depressant effects of alcohol'
+      Misc.: Older, less effective SNRIs. Started after patient developed difficulty
+        sleeping. Antidote to toxicity is Sodium Bicarbonate (NaHCO3). Highly lipid
+        soluble.
+    Baclofen:
+      Block:
+      - '3'
+      Case: []
+      Drug: Baclofen
+      Class: GABA Analog
+      Mechanism: 'It is a GABA (B) receptor agonist that hyperpolarizes neurons to
+        inhibit synpatic transmission in the spinal cord. '
+      Therapeutic Use: Muscle Spasms
+      Adverse Effects: Drowsiness and increased frequency of seizures in epileptic
+        patietns
+Block 4:
+  key:
+  - Case
+  - Drug
+  - Class
+  - Mechanism
+  - Therapeutic Use
+  - Adverse Effects
+  - Misc.
+  drugs:
+    Betamethasone:
+      Block:
+      - '4'
+      Case:
+      - C1
+      Drug: Betamethasone
+      Class: Corticosteroid
+      Mechanism: Controls or prevents inflammation by controling rate of protein synthesis,
+        suppressing migration of PMNs & fibroblasts, reversing capillary permeability,
+        & stabilizing lysosome at cellular level
+      Therapeutic Use: Controls or prevents inflammation, immunospupression
+      Adverse Effects: Chronic use side effects include weight gain (fat deposition
+        - moon face), adrenal insufficiency and cushing's-like symptoms, osteoporosis,
+        muscle wasting, hyperglycemia (DM) HTN, HLD, acne, infections, mood alteration
+      Misc.: 'Pregnancy: category C'
+    Alpha methyldopa:
+      Block:
+      - '4'
+      Case:
+      - C1
+      Drug: Alpha methyldopa
+      Class: Alpha 2 agonist
+      Mechanism: A prodrug that is metabolized to active agent α-methylnorepinephinre
+        and (α-methyldopmaine) in nerve endings. It Lowers blood pressure by ↓ peripheral
+        vascular resistance. Work on α2-receptors in the vasomotor center of the medulla
+        to reduce sympathetic tone. It stimulates central inhibitory alpha-adrenergic
+        receptors, false neurotransmission, and/or reduction of plasma renin activity.
+      Therapeutic Use: Gestational HTN, pre-eclampsia
+      Adverse Effects: mild side effects
+      Misc.: 'Pregnancy Category: B; compatible with breast feeding'
+    Misoprostol:
+      Block:
+      - '4'
+      Case:
+      - C1
+      Drug: Misoprostol
+      Class: GI agent, Prostoglandin analogue (PGE1)
+      Mechanism: 'Pregnancy induction: It causes uterine contractions and the ripening
+        (effacement or thinning) of the cervix. An analog of prostaglandin E1 that
+        acts in the GI tract tom stimulate bicarbonate and mucus production.'
+      Therapeutic Use: Start labor, cause an abortion, prevent and treat stomach ulcers,
+        and treat postpartum bleeding due to poor contraction of the uterus.
+      Adverse Effects: Diarrhea, abdominal pain
+      Misc.: |-
+        Pregnancy category: X
+        Oxytocin doesn't work well in pregnancy induction if the cervix is not ripe
+    Hydralazine:
+      Block:
+      - '4'
+      Case:
+      - C1
+      Drug: Hydralazine
+      Class: 'Vasodialator '
+      Mechanism: 'Dilates arterioles with little effect on vein; decreases systemic
+        resistance, which subsequently decreases blood pressure. Reduces blood pressure
+        directly by relaxing arteriolar muscle (probably mediated by ↑ HIG-1 (hypoxia
+        inductible factor 1) which regulates a number of downstream target genes that
+        lead to ↓ Ca2+ influx) '
+      Therapeutic Use: Hypertensive crisis, chronic hypertension
+      Adverse Effects: Not used as a primary drug for treating HTN b/c it elicits
+        a reflex sympathetic stimulation of the heart (the baroreceptor reflex-->increase
+        HR, CO) so in patients with CAD may cause angina pectoris or myocardial infarction.
+        May Cause a lupus like syndrome
+      Misc.: 'Pregnancy: category C'
+    Magnesium sulfate:
+      Block:
+      - '4'
+      Case:
+      - C5
+      Drug: Magnesium sulfate
+    Labetalol:
+      Block:
+      - '4'
+      Case:
+      - C1
+      - C2
+      Drug: Labetalol
+      Class: "alpha/beta adrenergic antagonist \n\n(nonspecific beta blocker with
+        intrinsic sympathomimetic activity; highly selective postsynaptic alpha1 blocker)"
+      Mechanism: 'Competitive Antagonist (+ partial agonist) Blocks alpha 1 receptors
+        to vasodialate and also blocks beta 1 receptors to decrease heart rate and
+        contractility. Acute use: decreases the PVR and systemic BP with little effect
+        on the heart rate, cardiac output and stroke volume. Prolonged use: decreases
+        PVR, but during exercise CO remains the same due to a compensatory mechanism
+        that increases SV. ↓ HR, ↓ Myocaridal contractility, ↓ peripheral resistance,
+        and ↓ BP'
+      Therapeutic Use: Treatment of pregnancy-induced HTN; Management of hypertensive
+        emergencies, postoperative HTN, pheochromocytoma-associated hypertension,
+        and rebound hypertension from beta blocker withdrawal.
+      Adverse Effects: Elevated BUN or Creatinine; orthostatic hypotension
+      Misc.: "Pregnancy: category C\nThis drug undrgoes extensive first pass metabolism.\nOrally,
+        the ratio of alpha to β blockade is 1:3. IV: alpha to β blockade ratio is
+        1:7. "
+    Ramipril:
+      Block:
+      - '4'
+      Case:
+      - C2
+      Drug: Ramipril
+      Class: ACE inhibitor; antihypertensive
+      Mechanism: high-affinity, competiitve, reversible binding to angiotensin-converting
+        enzyme (ACE) --> inhibits ACE activity --> no formation of angiotensin II
+        from angiotensin I --> decreased vasoconstriction
+      Therapeutic Use: Hypertension; tx of heart failure post-MI
+      Adverse Effects: cough, hypotension, orthostatic hypotension, hyperkalemia
+      Misc.: high potency and long duration of action due to a slow rate of dissociation
+        of the drug from the enzyme after binding
+    Lovastatin:
+      Block:
+      - '4'
+      Case:
+      - C2
+      Drug: Lovastatin
+      Class: statin
+      Mechanism: competitively inhibits HMG-CoA reductase --> inhibition of rate-limiting
+        step of cholesterol biosynthesi
+      Therapeutic Use: Hypercholesterolemia, prevention of CAD and atherosclerotic
+        cardiovascular dz
+      Adverse Effects: increased CPK, myalgia, weakness, muscle cramps; and headache,
+        dizziness, rash, constipation, abd pain, nausea, diarrhea
+      Misc.: this is a low-intensity statin drug, lowering LDLs by <30%
+    Orphenadrine citrate:
+      Block:
+      - '4'
+      Case:
+      - C2
+      Drug: Orphenadrine citrate
+      Class: skeletal muscle relaxant
+      Mechanism: nonselective acetylcholine antagonist; thought to work by having
+        central atropine-like effects --> indirect skeletal muscle relaxant; also
+        has euphorigenic and analgesic properties
+      Therapeutic Use: muscle spasm; acute painful MSK conditions
+      Adverse Effects: the usual - n/v/d, dizziness, drowsiness, headache
+      Misc.: combo with ASA and caffeine = Norgesic
+    Dexamethasone:
+      Block:
+      - '4'
+      Case:
+      - C2
+      Drug: Dexamethasone
+      Class: Corticosteroid
+      Mechanism: Decreases inflammation by suppressing migration of polymorphonuclear
+        leukocytes (PMNs) and reducing capillary permeability. Stabilizes cell and
+        lysosomal membranes, increases surfactant synthesis, increases serum vitamin
+        A concentration, and inhibits prostaglandin and proinflammatory cytokines.
+        Suppresses lymphocyte proliferation through direct cytolysis, inhibits mitosis,
+        breaks down granulocyte aggregates, and improves pulmonary microcirculation
+      Therapeutic Use: Inflamation . Parth of chemotherapy regimen used to treat non-Hodgkin
+        lymphoma (high grade) and acute lymphoblastic lymphoma.
+      Adverse Effects: "Cardiac arrest, glucose intolerance, \n glucosuria, diabetes
+        melitus"
+    Diazepam:
+      Block:
+      - '4'
+      Case:
+      - C2
+      Drug: Diazepam
+    Kefzol:
+      Block:
+      - '4'
+      Case:
+      - C2
+      Drug: Kefzol
+    N2O:
+      Block:
+      - '4'
+      Case:
+      - C2
+      Drug: N2O
+    Isoflurane:
+      Block:
+      - '4'
+      Case:
+      - C2
+      Drug: Isoflurane
+    Thiopental:
+      Block:
+      - '4'
+      Case:
+      - C2
+      Drug: Thiopental
+      Misc.: OUTDATED medication
+    Fentanyl:
+      Block:
+      - '4'
+      Case:
+      - C2
+      Drug: Fentanyl
+      Class: Opoid Analgesic
+      Mechanism: "Binds many opioid receptors in the \n CNS --> hyperpolarization
+        and decreased activity of neural cells; increases pain threshold, inhibits
+        ascending pain pathways, alters pain reception"
+      Therapeutic Use: Pain Control; General anesthesia (adjunctive)
+      Adverse Effects: |-
+        Respiratory depression, constipation;
+         Addiction, tolerance, dependance, MIosis and serotonin syndrome (rare)
+    Aracurium:
+      Block:
+      - '4'
+      Case:
+      - C2
+      Drug: Aracurium
+    Robinul:
+      Block:
+      - '4'
+      Case:
+      - C2
+      Drug: Robinul
+    Neostigmine:
+      Block:
+      - '4'
+      Case:
+      - C2
+      Drug: Neostigmine
+      Class: Anticholinesterase
+      Mechanism: Reversibly binds to andcompetively inhibits acetylcholinesterase
+        --> increased ACh available at the NMJ to bind to AChRs. Also a weak agonist
+        to nicotinic receptors (direct agonist). Does not cross BBB.
+      Therapeutic Use: Myasthenia gravis; post-op bladder distention/urinary retention;
+        reversal of nondepolarizing muscle relaxants
+      Adverse Effects: Cholinergic crisis (muscle weakness --> respiratory paralysis)
+        Bradycardia, hypotension
+      Misc.: Per LexiComp and our own pharmacist (Sarju), shorter half-life than Pyridostigmine.
+        (Shorter half-life typically equates to more severe effects than longer half-life)
+    Hydrocortisone:
+      Block:
+      - '4'
+      Case:
+      - C2
+      Drug: Hydrocortisone
+    Prednisone:
+      Block:
+      - '4'
+      Case:
+      - C2
+      Drug: Prednisone
+      Class: corticosteroid
+      Mechanism: metabolized in the liver to prednisolone --> binds to glucocorticoid
+        receptor --> translocates to nucleus --> effects directly on DNA transcription
+        --> up-regulation of anti-inflammatory proteins --> suppresses inflammation
+        and immune system
+      Therapeutic Use: allergies, asthma, anti-inflammatory (IBDs), immunosuppression
+      Adverse Effects: weight gain, fluid retention, increased BP
+    Famotidine:
+      Block:
+      - '4'
+      Case:
+      - C4
+      Drug: Famotidine
+    Naproxen:
+      Block:
+      - '4'
+      Case:
+      - C4
+      Drug: Naproxen
+      Class: NSAID
+      Mechanism: Inhibits COX-1 and COX-2 --> inhibits synthesis of prostaglandins;
+        May inhibit chemotaxis, alter lymphocyte activity, decrease proinflammatory
+        cytokine activity, and inhibit neutrophil aggregation
+      Therapeutic Use: Mild to moderate pain, RA, OA, tendonitis, bursitis, acute
+        gout, migraine, amenorrhea
+      Adverse Effects: Constipation, dizziness, headache, nausea, GI bleeding
+      Misc.: less likely than other NSAIDs to have adverse effects of MI, stroke,
+        GI irritation and inflammation. Preferred medication to be used in pt's with
+        high risk of such complications
+    ASA:
+      Block:
+      - '4'
+      Case:
+      - C4
+      Drug: ASA
+      Class: Analgesic
+      Mechanism: Acts on hypothalamus to produce antipyresis; prostaglandin synthetase
+        inhibition --> decreased formation of thromboxane A2 --> anti-inflammatory.
+        IRREVERSIBLY covalently modifies COX1 and COX2. Does not bind.
+      Therapeutic Use: |-
+        Pain, fever, inflammation
+        Taken to prevent heart attacks, strokes and chest pain
+      Adverse Effects: "Tinnitus, dyspepsia, Reye's \n syndrome"
+      Misc.: Actions are dose-dependent
+    Codeine:
+      Block:
+      - '4'
+      Case:
+      - C4
+      Drug: Codeine
+    Fluoxetine:
+      Block:
+      - '4'
+      Case:
+      - C4
+      Drug: Fluoxetine
+      Class: Antidepressant
+      Mechanism: Selective serotonin reuptake inhibitor; little or no affinity for
+        alpha-adrenergic histamine or cholinergic receptor
+      Therapeutic Use: 'Antidepressant, Antianxiety, '
+      Adverse Effects: 'nausea and headaches (esp when first starting), sexual dysfunction
+        is very common in this class (KNOW THIS), sleep disturbances. Serious side
+        effect: Serotonin Syndrome'
+    Ranitidine:
+      Block:
+      - '4'
+      Case:
+      - C5
+      Drug: Ranitidine
+    Ibuprofen:
+      Block:
+      - '4'
+      Case:
+      - C4
+      Drug: Ibuprofen
+      Class: NSAID
+      Mechanism: REVERSIBLY inhibits Cox1 and 2 (Cox 1 inhibitied more than Cox 2);
+        so platelets can regenerate thromboxane A 2 levels (does not inhibit platelet
+        aggregation). Aspirin hits the enzymes irreversibly so platelets cant regenerate
+        thromboxane till new platelets are made (8-10 days)
+      Therapeutic Use: |-
+        Pain reliever
+         Fever reducer
+      Adverse Effects: Nephrotoxicity, GI bleeding, tinnitus
+    Tacrolimus:
+      Block:
+      - '4'
+      Case:
+      - C5
+      Drug: Tacrolimus
+    Hydroxyzine:
+      Block:
+      - '4'
+      Case:
+      - C5
+      Drug: Hydroxyzine
+    Desonide:
+      Block:
+      - '4'
+      Case:
+      - C5
+      Drug: Desonide
+    TMP SMX:
+      Block:
+      - '4'
+      Case:
+      - C5
+      Drug: TMP SMX
+    Hydrochlorothiazide:
+      Block:
+      - '4'
+      Case:
+      - C5
+      Drug: Hydrochlorothiazide
+      Class: Thiazide diuretic
+      Mechanism: Inhibits urine production by blocking the reabsorption of NaCl in
+        the early segment of the distal convoluted tubule.
+      Therapeutic Use: Hypertension, edema (can be used in moderate heart failure
+        patients to decrease excess fluid in the system)
+      Adverse Effects: Hypokalemia, hyponatremia, dehydration, hyperglycemia, and
+        gout. Also causes Hypercalcemia!
+      Misc.: Should be avoided in patients with renal failure, sulfa allergy, and
+        during pregnancy/breast feeding. HCTZ can cross placenta and enter breast
+        milks.
+    Calcium Carbonate:
+      Block:
+      - '4'
+      Case:
+      - C5
+      Drug: Calcium Carbonate
