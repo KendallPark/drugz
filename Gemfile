@@ -12,6 +12,8 @@ gem 'pg'
 
 gem "ember-cli-rails"
 
+gem "pry", group: :development
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
