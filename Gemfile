@@ -26,3 +26,5 @@ gem "ember-cli-rails"
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+
+gem 'rails_12factor', group: [:staging, :production]
