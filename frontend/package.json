@@ -40,7 +40,7 @@
     "ember-resolver": "^2.0.3",
     "loader.js": "^4.0.1"
   },
-    "dependencies": {
+  "dependencies": {
     "ember-cli-sass": "^5.3.1"
   }
 }
