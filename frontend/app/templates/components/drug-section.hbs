@@ -1,0 +1,7 @@
+<div class="tab-content">
+  {{#each section.questions as |question index|}}
+    <div role="tabpanel" class="tab-pane active" {{bind-attr id="getQuestionId(index)"}}>
+      {{drug-question question=question options=question.options answer=question.answer disabled=disabled}}
+    </div>
+  {{/each}}
+</div>
