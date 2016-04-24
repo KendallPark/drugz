@@ -58,5 +58,6 @@ Rails.application.routes.draw do
     resources :quizzes
   end
 
+  mount_ember_assets :frontend
   mount_ember_app :frontend, to: "/"
 end
