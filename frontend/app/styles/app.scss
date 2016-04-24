@@ -1,0 +1,17 @@
+@import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/variables";
+@import "../../bower_components/bootswatch-scss/readable/variables";
+@import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap";
+@import "../../bower_components/bootswatch-scss/readable/bootswatch";
+
+.finished .correct{
+  @extend .has-success
+}
+
+.finished .incorrect {
+  color: gray;
+}
+
+.progress {
+  width: 300px;
+  float: right;
+}

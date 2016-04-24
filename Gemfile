@@ -11,6 +11,7 @@ gem 'pg'
 
 
 gem "ember-cli-rails"
+# gem 'sass-rails'
 
 gem "pry", group: :development
 
