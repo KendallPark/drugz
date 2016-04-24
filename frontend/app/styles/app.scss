@@ -9,6 +9,9 @@
 
 .finished .incorrect {
   color: gray;
+  input[type="radio"]:checked + div {
+    color: $brand-danger !important;
+  }
 }
 
 .progress {
