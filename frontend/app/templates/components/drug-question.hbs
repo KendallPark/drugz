@@ -1,6 +1,6 @@
 <h4>{{question.question}}</h4>
 <form class="form">
   {{#each options as |option index|}}
-    {{drug-option text=option index=index answer=answer disabled=disabled}}
+    {{drug-option text=option index=index answer=answer disabled=disabled questionIndex=questionIndex}}
   {{/each}}
 </form>

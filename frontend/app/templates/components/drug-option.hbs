@@ -1,7 +1,7 @@
 <div class="{{if (eq index answer) 'correct' 'incorrect'}}">
   <div class="radio">
     <label>
-      <input type="radio" disabled={{disabled}}/>
+      <input type="radio" name="question-{{questionIndex}}" disabled={{disabled}}/>
       {{text}}
     </label>
   </div>
