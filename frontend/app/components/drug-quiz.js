@@ -17,11 +17,8 @@ export default Ember.Component.extend({
   }),
   init() {
     this._super(...arguments);
-    console.log(...arguments);
     $.getJSON("/api/quizzes", function(response) {
-      console.log(response);
       var data = response;
-      console.log(data);
       this.set("data", data);
       this.set("currentSectionIndex", 0);
       this.set("currentSection", this.data[this.currentSectionIndex]);
