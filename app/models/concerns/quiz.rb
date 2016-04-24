@@ -13,9 +13,9 @@ class Quiz
       end
     end
 
-    @quiz = {}
+    @quiz = []
     sections.each do |section|
-      @quiz[section] = []
+      sec = {title: section, questions: []}
       key.each do |attribute|
         if drugs[section][attribute]
           options = stuff[attribute].sample(5)
@@ -29,10 +29,12 @@ class Quiz
             options: options,
             answer: options.index(drugs[section][attribute])
           }
-          @quiz[section].push question
+          sec[:questions].push question
         end
       end
-      @quiz[section].shuffle!
+      next if sec[:questions].length < 1
+      # sec[:questions].shuffle!
+      @quiz.push sec
     end
   end
 end
