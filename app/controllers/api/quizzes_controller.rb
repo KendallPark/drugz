@@ -3,7 +3,7 @@ require 'csv'
 class Api::QuizzesController < ApiController
   def index
     data = drugs
-    @quiz = Quiz.new(data, "Block 4").quiz
+    @quiz = Quiz.new(data, "Block 5").quiz
     render json: @quiz
   end
 
